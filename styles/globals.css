@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+
 @font-face {
     font-family: Muller;
     src: url(../styles/Fonts/MullerTTF/Muller-Thin-DEMO.ttf);
 }
+
 @font-face {
     font-family: Gotham400Normal;
     src: url(../styles/Fonts/Gotham\ Pro/gothampro.ttf);
@@ -14,26 +16,37 @@ body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-        background: #232325;
+    background: #232325;
 }
 
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,p,a,div,li{color: white;}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+div,
+li {
+    color: white;
+}
 
 a {
     color: inherit;
     text-decoration: none;
-    
+
 }
 
 * {
     box-sizing: border-box;
 }
-.content{
-    
+
+.content {
+
     height: 4000px;
 }
 
@@ -42,7 +55,7 @@ a {
     height: 100vh;
     background-color: rgba(35, 35, 37, 1);
     background: url("../images/Rectangle\ 1.png") no-repeat;
-    
+
     background-size: cover;
 }
 
@@ -72,14 +85,14 @@ a {
     position: fixed;
 }
 
-.logoContainer img{
+.logoContainer img {
     width: 98px;
     height: 74px;
     margin-top: 64px;
     top: auto;
 }
 
-.nav{
+.nav {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,7 +100,7 @@ a {
     margin-top: 105px;
 }
 
-.nav a{
+.nav a {
     font-family: Muller;
     font-style: normal;
     font-weight: 700;
@@ -95,11 +108,12 @@ a {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 30px;
 }
-.nav a:first-child{
+
+.nav a:first-child {
     color: white;
 }
 
-.links{
+.links {
     margin-top: 60px;
 }
 
@@ -112,19 +126,22 @@ a {
     height: 19px;
 }
 
-.mainContent{
+.mainContent {
     width: 800px;
     margin: 0 0 0 300px;
 }
-.home{
+
+.home {
     height: 475px;
 }
-.home h1{
+
+.home h1 {
     font-size: 142px;
     margin-top: 195px;
     margin-bottom: 0px;
 }
-.home p{
+
+.home p {
     font-family: Muller;
     font-size: 42px;
     width: 550px;
@@ -134,14 +151,15 @@ a {
     margin-top: 5px;
     line-height: 55px;
 }
-.home a{
+
+.home a {
     font-family: Muller;
     font-size: 28px;
     padding: 20px 70px;
-    
+
     background: #C83B34;
     font-weight: bold;
-    
+
     border-radius: 10px;
     margin-left: 10px;
 
@@ -150,43 +168,51 @@ a {
 
 
 
-.about{
+.about {
     margin-top: 87px;
     height: 750px;
 }
-.about h1{
+
+.about h1 {
     font-size: 64px;
     margin-top: 200px;
 }
-.about p{
+
+.about p {
     font-size: 23px;
     line-height: 162.64%;
     width: 350px;
 }
-.about img{
+
+.about img {
     width: 305px;
     height: 436px;
 }
-.about div{
+
+.about div {
     display: flex;
     justify-content: space-between;
 }
-.values{
-    height: 750px;  
+
+.values {
+    height: 750px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.values h1{
+
+.values h1 {
     font-size: 64px;
     display: flex;
     margin-bottom: 75px;
 }
-.values .container .item img{
+
+.values .container .item img {
     width: 73px;
     height: 70px;
 }
-.values .container .item h2{
+
+.values .container .item h2 {
     font-size: 26px;
     width: 350px;
     line-height: 35px;
@@ -195,8 +221,9 @@ a {
     font-family: Gotham400Normal;
     font-weight: bold;
     letter-spacing: .9px;
-    
+
 }
+
 .values .container {
     display: flex;
     flex-wrap: wrap;
@@ -204,7 +231,7 @@ a {
     max-width: 850px;
 }
 
-.values .container .item p{
+.values .container .item p {
     font-size: 16px;
     letter-spacing: 2.5px;
     margin-top: 10px;
@@ -212,23 +239,25 @@ a {
     text-align: center;
 }
 
-.values .container .item{
+.values .container .item {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 325px;
     margin: 0 30px;
     margin-bottom: 50px;
-    
+
 }
-.project{
+
+.project {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
     height: 750px;
 }
-.project h1{
+
+.project h1 {
     font-size: 50px;
     display: flex;
     margin-bottom: 75px;
@@ -237,30 +266,47 @@ a {
     font-family: Gotham400Normal;
     font-weight: 800;
 }
-.project .content{
-    align-self:flex-start;
+
+.project .content {
+    align-self: flex-start;
 }
-.project .content .item{
+
+.project .content .item {
     margin-bottom: 40px;
 }
-.project .content .item h2{
+
+.project .content .item h2 {
     color: #C83B34;
     font-family: Gotham400Normal;
     margin-bottom: 0px;
 }
-.project .content .item p{
+
+.project .content .item p {
     font-family: Gotham400Normal;
     width: 300px;
     line-height: 30px;
     letter-spacing: 1px;
     margin-top: 10px;
 }
-.project .wrapper img{
+
+.project .wrapper img {
     width: 400px;
     height: 400px;
     position: absolute;
     right: 0;
 }
-.project .wrapper{
+
+.project .wrapper {
     display: flex;
+}
+
+/* technolodies */
+
+.technoleges_title {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
 }

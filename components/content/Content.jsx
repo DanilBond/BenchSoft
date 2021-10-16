@@ -1,7 +1,8 @@
 import React from 'react';
 import Main from '../main/Main';
 import Home from '../home/Home';
-import Project from '../project/project';
+import Project from '../project/Project';
+import Technoleges from '../technolodies/Technoleges';
 
 const Content = () => {
     return (
@@ -10,6 +11,7 @@ const Content = () => {
             <Home/>
             <Main/>
             <Project/>
+            <Technoleges/>
             </div>
         </div>
     );
