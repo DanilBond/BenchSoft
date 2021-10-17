@@ -17,12 +17,12 @@ const SideBare = () => {
 
                 <nav className="nav">
                 <a className="sideBare_link" href="#">Home</a>
-                <a className="sideBare_link" href="#">About</a>
-                <a className="sideBare_link" href="#">Values</a>
-                <a className="sideBare_link" href="#">Project start</a>
-                <a className="sideBare_link" href="#">Services</a>
-                <a className="sideBare_link" href="#">Portfolio</a>
-                <a className="sideBare_link" href="#">Contact</a>
+                <a className="sideBare_link" href="#About">About</a>
+                <a className="sideBare_link" href="#part3">Values</a>
+                <a className="sideBare_link" href="#part4">Project start</a>
+                <a className="sideBare_link" href="#part5">Services</a>
+                <a className="sideBare_link" href="#part6">Portfolio</a>
+                <a className="sideBare_link" href="#part7">Contact</a>
                 </nav>
 
             </div>
