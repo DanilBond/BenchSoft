@@ -4,17 +4,19 @@ import Home from '../home/Home';
 import Project from '../project/project';
 import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
+import Burger from '../burger/Burger';
 
 const Content = () => {
     return (
         <div className="content">
             <div className="mainContent">
-            <Home/>
-            <Main/>
-            <Project/>
+                
+                <Home/>
+                <Main/>
+                <Project/>
 
-            <Contact/>
-            <Footer/>
+                <Contact/>
+                <Footer/>
             </div>
         </div>
     );

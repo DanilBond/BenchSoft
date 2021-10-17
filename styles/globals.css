@@ -410,6 +410,37 @@ a {
     justify-content: space-around;
 }
 
+.burger{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.burger .content{
+    display: none;
+}
+.burger .icon{
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    opacity: .5;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #1d1d1d;
+    border-radius:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.burger .icon div{
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 2px 0;
+}
+
+
 @media only screen and (max-width: 1120px) {
     .home h1{
         font-size: 120px;
@@ -438,6 +469,26 @@ a {
         width: 300px;
         height: 300px;
     }
+
+    .contact .container{
+        justify-content: space-evenly;
+    }
+    .contact .container h2{
+        font-size: 30px;
+    }
+    
+    .contact .container .localWrapper p{
+        font-size: 10px;
+    }
+    #form input{
+        width: 550px;
+    }
+    .contact{
+        margin-right: 125px;
+    }
+    .footer{
+        width: 700px;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -456,9 +507,20 @@ a {
     }
 }
 
+@media only screen and (max-width: 1020px) {
+    
+    .footer{
+        width: 600px;
+    }
+}
+
+
 @media only screen and (max-width: 950px) {
     .sideBare{
         display: none;
+    }
+    .burger {
+        display: flex;
     }
     .mainContent{
         margin: auto;
@@ -494,17 +556,40 @@ a {
     .project img{
         display: none;
     }
+    .project h1{
+        font-size: 30px;
+    }
     .project .wrapper{
         justify-content: center;
     }
     .project .wrapper .content div{
         text-align: center;
     }
+    .contact{
+        margin-right: 0;
+    }
+    #form input{
+        width: 400px;
+    }
+    
+    .footer{
+        width: 600px;
+    }
 }
 
 @media only screen and (max-width: 790px) {
     .project{
         margin-top: 200px;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer .leftSide{
+        margin-left: 15px;
+    }
+    
+    .footer .rightSide{
+        margin-right: 15px;
     }
 }
 
@@ -522,5 +607,26 @@ a {
         align-items: center;
         
         justify-content: center;
+    }
+    
+    #form input{
+        width:300px;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+    }
+    .leftSide div{
+        text-align: center;
+    }
+    .footer .leftSide{
+        margin-left: 0;
+    }
+    
+    .footer .rightSide{
+        margin-top: 25px;
+        margin-right: 0;
     }
 }
