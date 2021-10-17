@@ -569,13 +569,62 @@ a {
 
    
 .burger{
-    display: none;
     width: 100%;
     height: 100%;
     position: fixed;
+    z-index: 1;
+}
+.iconclose{
+    display: none;
 }
 .burger .content{
     display: none;
+}
+.burger .background{
+    width: 100%;
+    background: black;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    opacity: .75;
+}
+.burger .backgroundClosed{
+    display: none;
+}
+.burger .contentOpen{
+    background: #252525;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burger .contentOpen img{
+    width: 98px;
+    height: 74px;
+    margin-top: 64px;
+    top: auto;
+    margin-bottom: 75px;
+}
+.burger .contentOpen .links{
+    margin-top: 20px;
+}
+
+.burger .contentOpen .links a {
+    padding: 0 12px;
+}
+
+.burger .contentOpen .links a img {
+    width: 20px;
+    height: 19px;
+}
+.burger .contentOpen a{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 30px;
 }
 .burger .icon{
     margin-left: 5px;
@@ -680,6 +729,11 @@ a {
     }
 }
 
+@media only screen and (min-width: 950px){
+    .burger {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 950px) {
     .sideBare{
