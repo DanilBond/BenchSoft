@@ -647,6 +647,12 @@ a {
     margin: 2px 0;
 }
 
+.technoleges_swiper{
+    display: flex;
+}
+.swiper-wrapper{
+    width: 500px;
+}
 
 @media only screen and (max-width: 1120px) {
     .home h1{
@@ -714,6 +720,9 @@ a {
         margin-right: 125px;
         margin-top: 25px;
         height: 340px;
+    }
+    .technoleges_blocks .active{
+        display: none;
     }
 }
 

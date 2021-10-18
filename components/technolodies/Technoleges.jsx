@@ -16,20 +16,15 @@ import SwiperCore, {
 SwiperCore.use([Scrollbar]);
 
 const Technoleges = () => {
-    console.log(document);
     return (
         <div className="technoleges">
             <h1 className="technoleges_title">Modern technologies for innovative solutions</h1>
 
             <div className="blocks_item">
 
-                <>
-                    <Swiper scrollbar={{
-                        "hide": true
-                    }} className="mySwiper">
-                        <SwiperSlide>
-                            <div >
-                            <div className="technoleges_blocks">
+                
+
+                <div className="technoleges_blocks active">
 
                                 <TechnolegesItem text="Python" img={pytgonImg.src} />
                                 <TechnolegesItem text="Python" img={pytgonImg.src} />
@@ -40,7 +35,7 @@ const Technoleges = () => {
                                 <TechnolegesItem text="Python" img={pytgonImg.src} />
 
                             </div>
-                            <div className="technoleges_blocks">
+                            <div className="technoleges_blocks active">
 
                                 <TechnolegesItem text="Docker" img={dockerImg.src} />
                                 <TechnolegesItem text="Docker" img={dockerImg.src} />
@@ -51,10 +46,7 @@ const Technoleges = () => {
                                 <TechnolegesItem text="Docker" img={dockerImg.src} />
 
                             </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="technoleges_blocks">
+                            <div className="technoleges_blocks active">
 
                                 <TechnolegesItem text="Python" img={pytgonImg.src} />
                                 <TechnolegesItem text="Python" img={pytgonImg.src} />
@@ -65,7 +57,7 @@ const Technoleges = () => {
                                 <TechnolegesItem text="Python" img={pytgonImg.src} />
 
                             </div>
-                            <div className="technoleges_blocks">
+                            <div className="technoleges_blocks active">
 
                                 <TechnolegesItem text="Docker" img={dockerImg.src} />
                                 <TechnolegesItem text="Docker" img={dockerImg.src} />
@@ -76,11 +68,6 @@ const Technoleges = () => {
                                 <TechnolegesItem text="Docker" img={dockerImg.src} />
 
                             </div>
-                        </SwiperSlide>
-                    </Swiper>
-                </>
-
-
 
             </div>
 
