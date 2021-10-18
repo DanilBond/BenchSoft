@@ -10,7 +10,7 @@ const Contact = () => {
       <h1>Contact us</h1>
 
       <div className="container">
-        <div className="contact-block">
+        <div className="contact-block animateOpacity">
           <div className="item">
             <img src={img1.src} alt="img1" width="35" height="45" />
             <div className="localWrapper">
@@ -27,7 +27,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact-block">
+        <div className="contact-block animateOpacity">
           <div className="item">
             <img src={img2.src} alt="img1" width="45" height="45" />
             <div className="localWrapper">
@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="form">
+      <div className="form  animateOpacity">
         <form action="post" id="form">
           <input type="text" placeholder="Your name" />
           <input type="email" placeholder="Email" />
