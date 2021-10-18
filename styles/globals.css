@@ -83,6 +83,42 @@ a {
     position: fixed;
 }
 
+.sideBare .nav a:hover{
+    color: white;
+}
+
+.animateFromLeft{
+    position: relative;
+    animation: animateLeft 1s;
+}
+.animateFromRight{
+    position: relative;
+    animation: animateRight 1s;
+}
+.animateOpacity{
+    animation: animateOpacity 3s;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes animateLeft{
+    from{left: -100%;}
+    to{left: 0;}
+}
+
+@keyframes animateRight{
+    from{right: -100%;}
+    to{right: 0;}
+}
+@keyframes animateOpacity{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.burger .contentOpen a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
 .logoContainer img {
     width: 98px;
     height: 74px;

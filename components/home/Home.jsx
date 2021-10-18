@@ -3,9 +3,9 @@ import React from 'react';
 const Home = () => {
     return (
         <div className="home">
-            <h1>Bench Soft</h1 >
-            <p >Build, expand and control your business with us</p>
-            <a href="./">get started</a>
+            <h1 className="animateOpacity">Benchsoft</h1 >
+            <p  className="animateOpacity">Build, expand and control your business with us</p>
+            <a className="animateOpacity" href="./">get started</a>
         </div>
     );
 };

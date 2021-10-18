@@ -8,7 +8,7 @@ const Service = () => {
             <h1 className="service_title"> Our services </h1>
 
             <div className="service_blocks">
-                <Service_block_left title="Web platforms" description="E-commerce. E-learning. CRM systems. Admin dashboards. HR Management systems. Blogs"/>
+                <Service_block_left className="animateFromRight" title="Web platforms" description="E-commerce. E-learning. CRM systems. Admin dashboards. HR Management systems. Blogs"/>
                 <Service_block_right title="Mobile applications" description="Cross platform mobile applications for IOS and Android"/>
 
                 <Service_block_left title="Landing pages" description="Beautiful and stylish landing pages for your business"/>

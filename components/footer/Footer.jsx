@@ -8,7 +8,7 @@ const Footer = () => {
     
     return (
         <div className="footer">
-            <div className="leftSide">
+            <div className="leftSide animateFromLeft">
                 <div><span className="spanFirst">B</span><span className="spanSecond">uild</span></div> 
                 <div><span className="spanFirst">E</span><span className="spanSecond">xpand</span></div>
                 <div><span className="spanFirst">N</span><span className="spanSecond">etwork</span></div>
@@ -16,7 +16,7 @@ const Footer = () => {
                 <div><span className="spanFirst">H</span><span className="spanSecond">ire</span></div>
             </div>
 
-            <div className="rightSide">
+            <div className="rightSide animateFromRight">
                 <img className="logo" src={logo.src} alt="logo" />
                 <div className="iconWrapper">
                     <img className="icon" src={telegram.src} alt="tgr"/>

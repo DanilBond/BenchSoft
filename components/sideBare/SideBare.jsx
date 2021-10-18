@@ -10,7 +10,7 @@ import Link from "next/link";
 const SideBare = () => {
     
     return (
-        <div className="sideBare">
+        <div className="sideBare animateOpacity">
 
             <div className="logoContainer">
                 <img src={logo.src} alt="logo" />
