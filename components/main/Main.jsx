@@ -4,7 +4,7 @@ import Values from '../values/Values';
 
 const Main = () => {
     return (
-        <div className="main">
+        <div className="main" id="about">
             <About/>
             <Values/>
         </div>

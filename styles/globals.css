@@ -410,6 +410,7 @@ a {
     box-shadow: 0px 0px 50px rgba(200, 59, 52, 1);
 }
 
+
 .footer {
     margin-top: 300px;
 }
@@ -655,6 +656,12 @@ a {
     width: 500px;
 }
 
+.flex_t{
+    display: flex;
+    margin-left: 40px;
+}
+
+
 @media only screen and (max-width: 1120px) {
     .home h1{
         font-size: 120px;
@@ -708,6 +715,9 @@ a {
 @media only screen and (max-width: 1080px) {
     .block_right{
         margin-left: 320px;
+    }
+    .technoleges_blocks.active{
+        display: none;
     }
     
     .about div p{
@@ -808,6 +818,11 @@ a {
 }
 
 @media only screen and (max-width: 790px) {
+    .technoleges_title{
+        font-size: 44px;
+        max-width: 500px;
+        margin:0 auto;
+    }
     .project{
         margin-top: 200px;
     }
@@ -859,4 +874,6 @@ a {
         margin-top: 25px;
         margin-right: 0;
     }
+    
+    
 }

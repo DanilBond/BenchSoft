@@ -2,18 +2,20 @@ import React from 'react';
 import TechnolegesItem from './technolegesItem/TechnolegesItem';
 import pytgonImg from '../../images/python.png'
 import dockerImg from '../../images/docker.png'
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/scrollbar"
+import "swiper/css/effect-flip"
+import "swiper/css/pagination"
+import "swiper/css/navigation"
 
 import SwiperCore, {
-    Scrollbar
+    EffectFlip, Pagination, Navigation
 } from 'swiper';
 
-// install Swiper modules
-SwiperCore.use([Scrollbar]);
+SwiperCore.use([EffectFlip, Pagination, Navigation]);
 
 const Technoleges = () => {
     return (
@@ -22,56 +24,55 @@ const Technoleges = () => {
 
             <div className="blocks_item">
 
-                
+                <div className="technoleges_blocks">
 
-                <div className="technoleges_blocks active">
+                    <TechnolegesItem text="Python" img={pytgonImg.src} />
+                    <TechnolegesItem text="Python" img={pytgonImg.src} />
+                    <TechnolegesItem text="Python" img={pytgonImg.src} />
+                    <TechnolegesItem text="Python" img={pytgonImg.src} />
+                    <TechnolegesItem text="Python" img={pytgonImg.src} />
+                    <TechnolegesItem text="Python" img={pytgonImg.src} />
+                    <TechnolegesItem text="Python" img={pytgonImg.src} />
 
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
+                </div>
+                <div className="technoleges_blocks">
 
-                            </div>
-                            <div className="technoleges_blocks active">
+                    <TechnolegesItem text="Docker" img={dockerImg.src} />
+                    <TechnolegesItem text="Docker" img={dockerImg.src} />
+                    <TechnolegesItem text="Docker" img={dockerImg.src} />
+                    <TechnolegesItem text="Docker" img={dockerImg.src} />
+                    <TechnolegesItem text="Docker" img={dockerImg.src} />
+                    <TechnolegesItem text="Docker" img={dockerImg.src} />
+                    <TechnolegesItem text="Docker" img={dockerImg.src} />
 
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
+                </div>
 
-                            </div>
-                            <div className="technoleges_blocks active">
+                <div className="technoleges_blocks">
 
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-
-                            </div>
-                            <div className="technoleges_blocks active">
-
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-
-                            </div>
+                <TechnolegesItem text="Python" img={pytgonImg.src} />
+                <TechnolegesItem text="Python" img={pytgonImg.src} />
+                <TechnolegesItem text="Python" img={pytgonImg.src} />
+                <TechnolegesItem text="Python" img={pytgonImg.src} />
+                <TechnolegesItem text="Python" img={pytgonImg.src} />
+                <TechnolegesItem text="Python" img={pytgonImg.src} />
+                <TechnolegesItem text="Python" img={pytgonImg.src} />
 
             </div>
+            <div className="technoleges_blocks">
 
+                <TechnolegesItem text="Docker" img={dockerImg.src} />
+                <TechnolegesItem text="Docker" img={dockerImg.src} />
+                <TechnolegesItem text="Docker" img={dockerImg.src} />
+                <TechnolegesItem text="Docker" img={dockerImg.src} />
+                <TechnolegesItem text="Docker" img={dockerImg.src} />
+                <TechnolegesItem text="Docker" img={dockerImg.src} />
+                <TechnolegesItem text="Docker" img={dockerImg.src} />
+
+            </div>
+            </div>
+            
         </div>
+
     );
 
 };

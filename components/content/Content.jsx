@@ -6,14 +6,13 @@ import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
 import Technoleges from '../technolodies/Technoleges';
 import Service from '../service/Service';
-import Burger from '../burger/Burger';
 
 const Content = () => {
 
     return (
         <div className="content">
             <div className="mainContent" >
-                <Home />
+                <Home/>
                 <Main />
                 <Project />
                 <Technoleges />
