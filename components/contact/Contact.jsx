@@ -6,7 +6,7 @@ import img4 from "../../images/sdf.png";
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" >
             <h1>Contact us</h1>
 
             <div className="container">

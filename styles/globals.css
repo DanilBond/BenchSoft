@@ -47,6 +47,7 @@ a {
 
 .content{
     overflow: hidden;
+    
     height: 8058px;
 }
 
@@ -55,7 +56,7 @@ a {
     height: 100vh;
     background-color: rgba(35, 35, 37, 1);
     background: url("../images/Rectangle\ 1.png") no-repeat;
-
+    
     background-size: cover;
 }
 
@@ -109,7 +110,7 @@ a {
     padding-bottom: 30px;
 }
 
-.nav a:first-child {
+#selected{
     color: white;
 }
 

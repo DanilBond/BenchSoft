@@ -9,9 +9,10 @@ import Service from '../service/Service';
 import Burger from '../burger/Burger';
 
 const Content = () => {
+
     return (
         <div className="content">
-            <div className="mainContent">
+            <div className="mainContent" >
                 <Home />
                 <Main />
                 <Project />
