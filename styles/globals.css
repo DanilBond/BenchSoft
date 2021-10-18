@@ -733,6 +733,7 @@ a {
   margin-left: 40px;
 }
 
+
 @media only screen and (max-width: 1120px) {
   .home h1 {
     font-size: 120px;
@@ -786,6 +787,20 @@ a {
   }
 }
 
+.deskTech {
+    display: flex;
+}
+.technoleges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.dualContainer{
+    display: flex;
+    margin: 0 200px;
+}
 @media only screen and (max-width: 1080px) {
   .block_right {
     margin-left: 320px;
@@ -817,13 +832,14 @@ a {
         display: none;
     }
     .deskTech{
-        display: inherit;
+        display: flex;
     }
 }
 @media only screen and (max-width: 1180px){
   
     .deskTech{
-        display: none;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
