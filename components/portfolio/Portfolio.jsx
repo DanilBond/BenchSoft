@@ -11,7 +11,7 @@ const Portfolio = () => {
     }
     
     return (
-        <div className="portfolio">
+        <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <div className="scrollContainer">
                 <div className={"scrollImage pos"+currentState} >

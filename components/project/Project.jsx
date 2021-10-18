@@ -3,7 +3,7 @@ import img1 from "../../images/Vector2.png";
 
 const Project = () => {
     return (
-        <div className="project">
+        <div className="project" id="project">
             <h1>Quick project start</h1>
             <div className="wrapper">
             <div className="content">
