@@ -18,8 +18,8 @@ import SwiperCore, {
 SwiperCore.use([EffectFlip, Pagination, Navigation]);
 
 const Technoleges = () => {
-    let [currentState, useCurrentState] = useState(0);
     
+
     return (
         <div className="technoleges">
             <h1 className="technoleges_title">Modern technologies for innovative solutions</h1>
