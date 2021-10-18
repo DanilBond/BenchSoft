@@ -46,8 +46,7 @@ a {
 }
 
 .content{
-    
-    height: 8058px;
+    height: 100%;
 }
 
 .Bench {
@@ -127,10 +126,11 @@ a {
 }
 
 .mainContent {
-    width: 800px;
+    max-width: 800px;
     margin: 0 0 0 300px;
 }
 .home{
+    max-width: 748px;
     height: 75vh;
 }
 
@@ -143,7 +143,7 @@ a {
 .home p {
     font-family: Muller;
     font-size: 42px;
-    width: 550px;
+    max-width: 550px;
     padding-left: 10px;
     font-weight: bold;
     color: rgba(255, 255, 255, .8);
@@ -838,6 +838,9 @@ a {
     .portfolio{
         width: 700px;
     }
+    .mainContent{
+        margin: 0 0 0 250px;
+    }
 }
 
 @media only screen and (min-width: 950px){
@@ -863,6 +866,7 @@ a {
         flex-direction: column;
         align-items: center;
         width: 100%;
+      
     }
     .home{
         display: flex;
