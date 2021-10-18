@@ -9,13 +9,14 @@ import Service from '../service/Service';
 import Burger from '../burger/Burger';
 import Portfolio from '../portfolio/Portfolio';
 
+export const mainRef = React.createRef()
 const Content = () => {
 
     return (
         <div className="content">
             <div className="mainContent" >
                 <Home/>
-                <Main />
+                <Main ref={mainRef}/>
                 <Project />
                 <Technoleges />
                 <Service/>
@@ -26,5 +27,4 @@ const Content = () => {
         </div>
     );
 };
-
 export default Content;
