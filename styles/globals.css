@@ -1088,7 +1088,24 @@ a {
     .home h1 {
         font-size: 60px;
     }
-
+    .mainContent{
+        width: 500px;
+    }
+    .main{
+        width: 500px;
+    }
+    .about{
+        width: 500px;
+    }
+    .values{
+        width: 500px;
+    }
+    .container{
+        width: 500px;
+    }
+    .project{
+        width: 500px;
+    }
     .home p {
         font-size: 20px;
         line-height: 25px;
