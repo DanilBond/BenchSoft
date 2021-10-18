@@ -7,6 +7,7 @@ import Footer from '../footer/Footer';
 import Technoleges from '../technolodies/Technoleges';
 import Service from '../service/Service';
 import Burger from '../burger/Burger';
+import Portfolio from '../portfolio/Portfolio';
 
 const Content = () => {
 
@@ -18,6 +19,7 @@ const Content = () => {
                 <Project />
                 <Technoleges />
                 <Service/>
+                <Portfolio/>
                 <Contact />
                 <Footer />
             </div>
