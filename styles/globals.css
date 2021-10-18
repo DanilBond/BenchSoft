@@ -655,6 +655,87 @@ a {
 .swiper-wrapper{
     width: 500px;
 }
+.portfolio {
+    margin-top: 150px;
+    margin-bottom: 400px;
+}
+.portfolio h1{
+    text-align: center;
+    font-size: 60px;
+}
+.portfolio .scrollContainer{
+    display: flex;
+    overflow: hidden;
+}
+.portfolio .scrollContainer .scrollImage img{
+    width: 325px;
+    height: 340px;
+}
+.portfolio .scrollContainer .scrollImage {
+    margin: 0 10px;
+}
+.portfolio .scrollBar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+    margin-top: 25px;
+}
+.portfolio .bar{
+    width: 300px;
+    height: 2px;
+    background: gray;
+    margin-right: 75px;
+}
+.portfolio .handle{
+    width: 150px;
+    height: 2px;
+    background: #C83B34;
+}
+
+.poshandle0{
+    transform: translateX(0);
+    transition: transform;
+    transition-duration: .5s;
+}
+.poshandle1{
+    transform: translateX(150px);
+    transition: transform;
+    transition-duration: .5s;
+}
+
+.portfolio .buttonContainer{
+    display: flex;
+    z-index: 1;
+}
+.portfolio .button{
+    background: #C83B34;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+.portfolio .button img{
+    width: 14px;
+    height: 16px;
+}
+.pos0{
+    transform: translateX(0);
+    transition: transform;
+    transition-duration: .5s;
+    
+}
+.pos1{
+    transform: translateX(-225px);
+    transition: transform;
+    transition-duration: .5s;
+}
+
 
 .flex_t{
     display: flex;
@@ -710,6 +791,9 @@ a {
     .footer{
         width: 700px;
     }
+    .portfolio{
+        width: 775px;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -735,6 +819,9 @@ a {
     .technoleges_blocks .active{
         display: none;
     }
+    .portfolio{
+        width: 725px;
+    }
 }
 
 @media only screen and (max-width: 1020px) {
@@ -747,12 +834,16 @@ a {
     .footer{
         width: 600px;
     }
+    .portfolio{
+        width: 700px;
+    }
 }
 
 @media only screen and (min-width: 950px){
     .burger {
         display: none;
     }
+    
 }
 
 @media only screen and (max-width: 950px) {
@@ -761,6 +852,9 @@ a {
     }
     .burger {
         display: flex;
+    }
+    .portfolio{
+        width: 100%;
     }
     .mainContent{
         margin: auto;
@@ -857,7 +951,14 @@ a {
     #form input{
         width:300px;
     }
-
+    .portfolio .scrollBar{
+        flex-direction: column;
+    }
+    .portfolio .scrollBar .bar{
+        margin-right: 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
     .footer{
         flex-direction: column;
         align-items: center;
