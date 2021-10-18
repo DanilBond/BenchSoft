@@ -29,11 +29,8 @@ import babel from '../../images/babel.svg'
 import aws from '../../images/aws.svg'
 import circleci from '../../images/circleci.svg'
 
-
-
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
-
 
 const Technoleges = (props) => {
 
@@ -48,112 +45,73 @@ const Technoleges = (props) => {
         <div className="technoleges" id="tech">
             <h1 className="technoleges_title">Modern technologies for innovative solutions</h1>
 
-            <div className="blocks_item">
+            <div className="deskTech">
 
-                <div ref={sliderRef} className="keen-slider mobileTech">
-                    <div className="keen-slider__slide number-slide1">
-                        <div className="t_adaptive">
-                            <div className="technoleges_blocks">
+                <div className="technoleges_blocks">
 
-                                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                                <TechnolegesItem text="Angular" img={angular.src} />
-                                <TechnolegesItem text="Django" img={django.src} />
-                                <TechnolegesItem text="Figma" img={figma.src} />
-                                <TechnolegesItem text="Firebase" img={firebase.src} />
-                                <TechnolegesItem text="next" img={next.src} />
-                                <TechnolegesItem text="Gitlab" img={gitlab.src} />
-
-                            </div>
-                            <div className="technoleges_blocks">
-
-                                <TechnolegesItem text="Docker" img={dockerImg.src} />
-                                <TechnolegesItem text="Javascript" img={javascript.src} />
-                                <TechnolegesItem text="Jira" img={jira.src} />
-                                <TechnolegesItem text="Kotlin" img={kotlin.src} />
-                                <TechnolegesItem text="Mongodb" img={mongodb.src} />
-                                <TechnolegesItem text="Mysql" img={mysql.src} />
-                                <TechnolegesItem text="Node" img={node.src} />
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="keen-slider__slide number-slide2">
-                        <div className="t_adaptive">
-                            <div className="technoleges_blocks">
-
-                                <TechnolegesItem text="Postgresql" img={postgresql.src} />
-                                <TechnolegesItem text="React" img={react.src} />
-                                <TechnolegesItem text="Redux" img={redux.src} />
-                                <TechnolegesItem text="Sass" img={sass.src} />
-                                <TechnolegesItem text="Swift" img={swift.src} />
-                                <TechnolegesItem text="Typescript" img={typescript.src} />
-                                <TechnolegesItem text="Webpack" img={webpack.src} />
-
-                            </div>
-                            <div className="technoleges_blocks">
-
-                                <TechnolegesItem text="vue" img={vue.src} />
-                                <TechnolegesItem text="Nestjs" img={nestjs.src} />
-                                <TechnolegesItem text="Google-cloud" img={google.src} />
-                                <TechnolegesItem text="Graphql" img={graphql.src} />
-                                <TechnolegesItem text="Babel" img={babel.src} />
-                                <TechnolegesItem text="Aws" img={aws.src} />
-                                <TechnolegesItem text="Circleci" img={circleci.src} />
-
-                            </div>
-                        </div>
-                    </div>
+                    <TechnolegesItem text="Python" img={pytgonImg.src} />
+                    <TechnolegesItem text="Angular" img={angular.src} />
+                    <TechnolegesItem text="Django" img={django.src} />
+                    <TechnolegesItem text="Figma" img={figma.src} />
+                    <TechnolegesItem text="Firebase" img={firebase.src} />
+                    <TechnolegesItem text="next" img={next.src} />
+                    <TechnolegesItem text="Gitlab" img={gitlab.src} />
 
                 </div>
+                <div className="technoleges_blocks">
 
-                <div className="deskTech">
+                    <TechnolegesItem text="Docker" img={dockerImg.src} />
+                    <TechnolegesItem text="Javascript" img={javascript.src} />
+                    <TechnolegesItem text="Jira" img={jira.src} />
+                    <TechnolegesItem text="Kotlin" img={kotlin.src} />
+                    <TechnolegesItem text="Mongodb" img={mongodb.src} />
+                    <TechnolegesItem text="Mysql" img={mysql.src} />
+                    <TechnolegesItem text="Node" img={node.src} />
 
-                    <div className="technoleges_blocks">
-
-                        <TechnolegesItem text="Python" img={pytgonImg.src} />
-                        <TechnolegesItem text="Angular" img={angular.src} />
-                        <TechnolegesItem text="Django" img={django.src} />
-                        <TechnolegesItem text="Figma" img={figma.src} />
-                        <TechnolegesItem text="Firebase" img={firebase.src} />
-                        <TechnolegesItem text="next" img={next.src} />
-                        <TechnolegesItem text="Gitlab" img={gitlab.src} />
-
-                    </div>
-                    <div className="technoleges_blocks">
-
-                        <TechnolegesItem text="Docker" img={dockerImg.src} />
-                        <TechnolegesItem text="Javascript" img={javascript.src} />
-                        <TechnolegesItem text="Jira" img={jira.src} />
-                        <TechnolegesItem text="Kotlin" img={kotlin.src} />
-                        <TechnolegesItem text="Mongodb" img={mongodb.src} />
-                        <TechnolegesItem text="Mysql" img={mysql.src} />
-                        <TechnolegesItem text="Node" img={node.src} />
-
-                    </div>
-                    <div className="technoleges_blocks">
-
-                        <TechnolegesItem text="Postgresql" img={postgresql.src} />
-                        <TechnolegesItem text="React" img={react.src} />
-                        <TechnolegesItem text="Redux" img={redux.src} />
-                        <TechnolegesItem text="Sass" img={sass.src} />
-                        <TechnolegesItem text="Swift" img={swift.src} />
-                        <TechnolegesItem text="Typescript" img={typescript.src} />
-                        <TechnolegesItem text="Webpack" img={webpack.src} />
-
-                    </div>
-                    <div className="technoleges_blocks">
-
-                        <TechnolegesItem text="vue" img={vue.src} />
-                        <TechnolegesItem text="Nestjs" img={nestjs.src} />
-                        <TechnolegesItem text="Google-cloud" img={google.src} />
-                        <TechnolegesItem text="Graphql" img={graphql.src} />
-                        <TechnolegesItem text="Babel" img={babel.src} />
-                        <TechnolegesItem text="Aws" img={aws.src} />
-                        <TechnolegesItem text="Circleci" img={circleci.src} />
-
-                    </div>
                 </div>
+                <div className="technoleges_blocks">
 
+                    <TechnolegesItem text="Postgresql" img={postgresql.src} />
+                    <TechnolegesItem text="React" img={react.src} />
+                    <TechnolegesItem text="Redux" img={redux.src} />
+                    <TechnolegesItem text="Sass" img={sass.src} />
+                    <TechnolegesItem text="Swift" img={swift.src} />
+                    <TechnolegesItem text="Typescript" img={typescript.src} />
+                    <TechnolegesItem text="Webpack" img={webpack.src} />
+
+                </div>
+                <div className="technoleges_blocks">
+
+                    <TechnolegesItem text="vue" img={vue.src} />
+                    <TechnolegesItem text="Nestjs" img={nestjs.src} />
+                    <TechnolegesItem text="Google-cloud" img={google.src} />
+                    <TechnolegesItem text="Graphql" img={graphql.src} />
+                    <TechnolegesItem text="Babel" img={babel.src} />
+                    <TechnolegesItem text="Aws" img={aws.src} />
+                    <TechnolegesItem text="Circleci" img={circleci.src} />
+
+                </div>
+            </div>
+
+            <div ref={sliderRef} className="keen-slider">
+                <div className="keen-slider__slide number-slide1">
+                <TechnolegesItem text="Python" img={pytgonImg.src} />
+                </div>
+                <div className="keen-slider__slide number-slide2">
+                <TechnolegesItem text="Angular" img={angular.src} />
+                </div>
+                <div className="keen-slider__slide number-slide3">
+                <TechnolegesItem text="Django" img={django.src} />
+                </div>
+                <div className="keen-slider__slide number-slide4">
+                <TechnolegesItem text="Figma" img={figma.src} />
+                </div>
+                <div className="keen-slider__slide number-slide5">
+                <TechnolegesItem text="Firebase" img={firebase.src} />
+                </div>
+                <div className="keen-slider__slide number-slide6">
+                <TechnolegesItem text="next" img={next.src} />
+                </div>
             </div>
 
         </div>

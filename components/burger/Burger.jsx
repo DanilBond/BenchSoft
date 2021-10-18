@@ -25,12 +25,12 @@ const Burger = () => {
             <div className={isActive ? 'contentOpen': 'content'}>
                 <img src={logo.src} alt="" />
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Values</a>
-                <a href="#">Project start</a>
-                <a href="#">Services</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#values">Values</a>
+                <a href="#project">Project start</a>
+                <a href="#service">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
 
                 <div className="links">
                     <a href="">
