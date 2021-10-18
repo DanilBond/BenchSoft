@@ -16,7 +16,6 @@ import SwiperCore, {
 SwiperCore.use([Scrollbar]);
 
 const Technoleges = () => {
-    console.log(document);
     return (
         <div className="technoleges">
             <h1 className="technoleges_title">Modern technologies for innovative solutions</h1>

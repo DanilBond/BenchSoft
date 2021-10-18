@@ -5,6 +5,7 @@ import whatsApp from "../../images/wh.png";
 import faceBook from "../../images/fb.png";
 
 const Footer = () => {
+    
     return (
         <div className="footer">
             <div className="leftSide">

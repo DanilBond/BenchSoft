@@ -5,7 +5,7 @@ import whatsApp from "../../images/wh.png";
 import faceBook from "../../images/fb.png";
 
 const SideBare = () => {
-
+    
     return (
         <div className="sideBare">
 
@@ -17,7 +17,7 @@ const SideBare = () => {
 
                 <nav className="nav">
                 <a className="sideBare_link" href="#">Home</a>
-                <a className="sideBare_link" href="#About">About</a>
+                <a className="sideBare_link" href="#about">About</a>
                 <a className="sideBare_link" href="#part3">Values</a>
                 <a className="sideBare_link" href="#part4">Project start</a>
                 <a className="sideBare_link" href="#part5">Services</a>
