@@ -739,9 +739,23 @@ a {
 
 .flex_t{
     display: flex;
+   
     margin-left: 40px;
 }
-
+@media only screen and (min-width: 1180px){
+    .mobileTech{
+        display: none;
+    }
+    .deskTech{
+        display: inherit;
+    }
+}
+@media only screen and (max-width: 1180px){
+  
+    .deskTech{
+        display: none;
+    }
+}
 
 
 @media only screen and (max-width: 1120px) {

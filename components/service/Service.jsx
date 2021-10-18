@@ -4,7 +4,7 @@ import Service_block_right from './Service_block_right/Service_block_right';
 
 const Service = () => {
     return (
-        <div className="service">
+        <div className="service" id="service">
             <h1 className="service_title"> Our services </h1>
 
             <div className="service_blocks">

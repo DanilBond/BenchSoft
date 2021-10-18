@@ -5,7 +5,7 @@ import img3 from "../../images/Vector1.png";
 
 const Values = () => {
     return (
-        <div className="values" >
+        <div className="values" id="values">
             <h1>Our values</h1>
 
             <div className="container">

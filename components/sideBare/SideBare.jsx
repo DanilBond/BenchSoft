@@ -5,13 +5,10 @@ import whatsApp from "../../images/wh.png";
 import faceBook from "../../images/fb.png";
 
 import Link from "next/link";
-import { mainRef } from '../content/Content';
 
 
 const SideBare = () => {
-    const scrollToMain = ()=>{
-        mainRef.current?.scrollIntoView({behavior:'smooth'});
-    }
+    
     return (
         <div className="sideBare">
 
@@ -22,12 +19,12 @@ const SideBare = () => {
             <div className="navContainer">
 
                 <nav className="nav">
-                    <a className="sideBare_link" onClick={scrollToMain}>About</a>
-                    <a className="sideBare_link">Values</a>
-                    <a className="sideBare_link" href="#part4">Project start</a>
-                    <a className="sideBare_link" href="#part5">Services</a>
-                    <a className="sideBare_link" href="#part6">Portfolio</a>
-                    <a className="sideBare_link" href="#part7">Contact</a>
+                    <a className="sideBare_link" href="#about">About</a>
+                    <a className="sideBare_link" href="#values">Values</a>
+                    <a className="sideBare_link" href="#project">Project start</a>
+                    <a className="sideBare_link" href="#service">Services</a>
+                    <a className="sideBare_link" href="#portfolio">Portfolio</a>
+                    <a className="sideBare_link" href="#contact">Contact</a>
                 </nav>
 
             </div>
