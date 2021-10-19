@@ -62,7 +62,7 @@ a {
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-    height: 100vh;
+    height: 600px;
     display: flex;
     justify-content: space-between;
 }
@@ -72,7 +72,7 @@ a {
 .sideBare {
     max-width: 240px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-top: none;
     border-bottom: none;
@@ -80,50 +80,63 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
 
     position: fixed;
 }
 
-.sideBare .nav a:hover{
+.sideBare .nav a:hover {
     color: white;
 }
 
-.animateFromLeft{
+.animateFromLeft {
     position: relative;
     animation: animateLeft 1s;
 }
-.animateFromRight{
+.animateFromRight {
     position: relative;
-    animation: animateRight 0.5s;
+    animation: animateRight 1s;
 }
-.animateOpacity{
+.animateOpacity {
     animation: animateOpacity 3s;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-@keyframes animateLeft{
-    from{left: -100%;}
-    to{left: 0;}
+@keyframes animateLeft {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
 }
 
-@keyframes animateRight{
-    from{right: -100%;}
-    to{right: 0;}
+@keyframes animateRight {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
 }
-@keyframes animateOpacity{
-    from{opacity: 0;}
-    to{opacity: 1;}
+@keyframes animateOpacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-.burger .contentOpen a:hover{
+.burger .contentOpen a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
 .logoContainer img {
     width: 98px;
     height: 74px;
-    margin-top: 64px;
+    /* margin-top: 64px; */
     top: auto;
 }
 
@@ -132,7 +145,7 @@ a {
     flex-direction: column;
     align-items: center;
 
-    margin-top: 105px;
+    /* margin-top: 105px; */
 }
 
 .nav a {
@@ -148,9 +161,9 @@ a {
     color: white;
 }
 
-.links {
+/* .links {
     margin-top: 60px;
-}
+} */
 
 .links a {
     padding: 0 12px;
@@ -164,9 +177,6 @@ a {
 .mainContent {
     max-width: 800px;
     margin: 0 0 0 300px;
-}
-.main{
-    width: auto;
 }
 
 .home {
@@ -186,7 +196,7 @@ a {
     max-width: 550px;
     padding-left: 10px;
     font-weight: bold;
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 0.8);
     margin-top: 5px;
     line-height: 55px;
 }
@@ -334,7 +344,7 @@ a {
 
 .project .wrapper {
     display: flex;
-    max-width: 750px;
+    width: 750px;
 }
 
 .contact h1 {
@@ -593,7 +603,7 @@ a {
 }
 
 .service {
-    width: auto;
+    width: 100%;
     height: 1300px;
     margin-top: 120px;
     /* background:url("../images/LOGO.png") center no-repeat; */
@@ -622,7 +632,6 @@ a {
 .burger .content {
     display: none;
 }
-
 
 .burger .background {
     width: 100%;
@@ -803,7 +812,6 @@ a {
     margin-left: 40px;
 }
 
-
 @media only screen and (max-width: 1120px) {
     .home h1 {
         font-size: 120px;
@@ -854,7 +862,14 @@ a {
         width: 550px;
     }
 
-    
+    .contact {
+        margin-right: 125px;
+    }
+
+    .footer {
+        width: 700px;
+    }
+
     .portfolio {
         width: 775px;
     }
@@ -880,23 +895,15 @@ a {
     display: none;
     margin-top: 50px;
 }
-.burger {
-    display: none;
-}
 
 @media only screen and (max-width: 1080px) {
     .block_right {
         margin-left: 320px;
     }
 
-
-    .technoleges_blocks.active {
-        display: none;
-    }
-
     .about div p {
         width: 275px;
-        font-size: 19px;
+        font-size: 20px;
     }
 
     .about h1 {
@@ -909,9 +916,6 @@ a {
         height: 340px;
     }
 
-    .technoleges_blocks .active {
-        display: none;
-    }
 
     .portfolio {
         width: 725px;
@@ -931,7 +935,6 @@ a {
 }
 
 @media only screen and (max-width: 1180px) {
-
     .deskTech {
         flex-wrap: wrap;
     }
@@ -946,7 +949,10 @@ a {
         margin: 0 auto;
     }
 
-    
+    .footer {
+        width: 600px;
+        margin-top: 200px;
+    }
 
     .portfolio {
         width: 700px;
@@ -955,14 +961,14 @@ a {
     .mainContent {
         margin: 0 0 0 250px;
     }
+}
+
+@media only screen and (min-width: 950px) {
     .burger {
         display: none;
     }
-}
-
-@media only screen and (min-width: 980px) {
-    .project .wrapper {
-        width: 545px;
+    .technoleges_blocks {
+        display: none;
     }
 }
 
@@ -970,13 +976,7 @@ a {
     .sideBare {
         display: none;
     }
-    .burger {
-        display: none;
-    }
-    .technoleges_blocks{
-        display: none;
-    }
-    .technoleges_blocks{
+    .technoleges_blocks {
         display: none;
     }
     .technology_text {
@@ -996,7 +996,6 @@ a {
         flex-direction: column;
         align-items: center;
         width: 100%;
-
     }
 
     .home {
@@ -1054,7 +1053,9 @@ a {
         width: 400px;
     }
 
-    
+    .footer {
+        width: 600px;
+    }
 }
 
 @media only screen and (max-width: 790px) {
@@ -1063,15 +1064,14 @@ a {
         max-width: 500px;
         margin: 0 auto;
     }
-    .technoleges_blocks{
+    .technoleges_blocks {
         display: none;
     }
 
-    .project {
-        margin-top: 200px;
+    .footer {
+        width: 100%;
+        justify-content: space-around;
     }
-
-   
 
     .footer .leftSide {
         margin-left: 15px;
@@ -1086,13 +1086,11 @@ a {
     }
 }
 
-
-
 @media only screen and (max-width: 550px) {
     .home h1 {
         font-size: 60px;
     }
-    
+
     .home p {
         font-size: 20px;
         line-height: 25px;
@@ -1121,9 +1119,10 @@ a {
     }
 
     .footer {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 200px;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: space-around;
+        margin-top: 150px;
     }
 
     .leftSide div {
@@ -1138,13 +1137,12 @@ a {
         margin-top: 25px;
         margin-right: 0;
     }
-   
-    
+
     .keen-slider {
         display: block;
         margin-top: 50px;
     }
-    .technoleges_blocks{
+    .technoleges_blocks {
         display: none;
     }
 }

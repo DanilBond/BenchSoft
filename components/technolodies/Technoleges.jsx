@@ -93,27 +93,7 @@ const Technoleges = (props) => {
                 </div>
             </div>
 
-            {/* <div ref={sliderRef} className="keen-slider">
-                <div className="keen-slider__slide number-slide1">
-                <TechnolegesItem text="Python" img={pytgonImg.src} />
-                </div>
-                <div className="keen-slider__slide number-slide2">
-                <TechnolegesItem text="Angular" img={angular.src} />
-                </div>
-                <div className="keen-slider__slide number-slide3">
-                <TechnolegesItem text="Django" img={django.src} />
-                </div>
-                <div className="keen-slider__slide number-slide4">
-                <TechnolegesItem text="Figma" img={figma.src} />
-                </div>
-                <div className="keen-slider__slide number-slide5">
-                <TechnolegesItem text="Firebase" img={firebase.src} />
-                </div>
-                <div className="keen-slider__slide number-slide6">
-                <TechnolegesItem text="next" img={next.src} />
-                </div>
-            </div> */}
-
+          
         </div>
 
     );
