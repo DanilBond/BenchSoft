@@ -49,16 +49,17 @@ a {
 }
 
 .Bench {
-    max-width: 100%;
+    min-width: 100%;
     height: 100vh;
     background-color: rgba(35, 35, 37, 1);
     background: url("../images/Rectangle\ 1.png") no-repeat;
 
     background-size: cover;
+    position: absolute;
 }
 
 .Bench_conent {
-    max-width: 1130px;
+    max-width: 1100px;
     width: 100%;
     margin: 0 auto;
     height: 100vh;
@@ -905,7 +906,7 @@ a {
 
     .about div p {
         width: 275px;
-        font-size: 19px;
+        font-size: 20px;
     }
 
     .about h1 {
@@ -954,6 +955,7 @@ a {
 
     .footer {
         width: 600px;
+        margin-top: 200px;
     }
 
     .portfolio {
@@ -1070,12 +1072,9 @@ a {
         display: none;
     }
 
-    .project {
-        margin-top: 200px;
-    }
-
     .footer {
         width: 100%;
+        justify-content: space-around;
     }
 
     .footer .leftSide {
@@ -1095,24 +1094,7 @@ a {
     .home h1 {
         font-size: 60px;
     }
-    .mainContent {
-        width: 500px;
-    }
-    .main {
-        width: 500px;
-    }
-    .about {
-        width: 500px;
-    }
-    .values {
-        width: 500px;
-    }
-    .container {
-        width: 500px;
-    }
-    .project {
-        width: 500px;
-    }
+
     .home p {
         font-size: 20px;
         line-height: 25px;
@@ -1141,9 +1123,10 @@ a {
     }
 
     .footer {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 200px;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: space-around;
+        margin-top: 150px;
     }
 
     .leftSide div {
