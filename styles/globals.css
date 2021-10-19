@@ -672,6 +672,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    pointer-events: all;
 }
 
 .burger .contentOpen img {
@@ -684,10 +685,12 @@ a {
 
 .burger .contentOpen .links {
     margin-top: 20px;
+    pointer-events: all;
 }
 
 .burger .contentOpen .links a {
     padding: 0 12px;
+    pointer-events: all;
 }
 
 .burger .contentOpen .links a img {
@@ -1005,7 +1008,6 @@ a {
         max-width: 500px;
         display: block;
         display: flex;
-        z-index: 1;
     }
     .t_agile{
         display: flex;
