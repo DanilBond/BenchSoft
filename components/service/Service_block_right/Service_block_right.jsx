@@ -2,7 +2,7 @@ import React from 'react';
 
 const Service_block_right = ({title , description}) => {
     return (
-        <div className="block_right animateFromLeft">
+        <div className="block_right">
             <h2>{title}</h2>
             <p>
                 {description}
