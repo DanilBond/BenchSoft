@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from "../../images/LOGO.png";
 
 import telegram from "../../images/Vector.png";
@@ -8,14 +8,15 @@ import faceBook from "../../images/fb.png";
 
 const Burger = () => {
     const [isActive, setActive] = useState(false);
-  
     const toggleClass = () => {
       setActive(!isActive);
     };
+
+    
     
     return (
         <div className="burger">
-            <div className={isActive ? 'iconclose': 'icon'} onClick={toggleClass}>
+            <div className={isActive ? 'iconclose': 'icon'} onClick={toggleClass} id='okay'>
                 <div></div>
                 <div></div>
                 <div></div>
@@ -23,7 +24,7 @@ const Burger = () => {
             <div className={isActive ? 'background': 'backgroundClosed'} onClick={toggleClass}></div>
 
             <div className={isActive ? 'contentOpen': 'content'}>
-                <img src={logo.src} alt="" />
+                <img src={logo.src} alt=""/>
                 <a href="#">Home</a>
                 <a href="#about">About</a>
                 <a href="#values">Values</a>
