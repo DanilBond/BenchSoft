@@ -15,7 +15,7 @@ const Burger = () => {
     
     return (
         <div className="burger">
-            <div className={isActive ? 'iconclose': 'icon'} onClick={toggleClass}>
+            <div className={isActive ? 'iconclose' : 'icon'} onClick={toggleClass}>
                 <div></div>
                 <div></div>
                 <div></div>
