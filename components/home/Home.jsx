@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 
 const Home = () => {
-    useEffect(()=>{
-        console.log(document.body.mainContent)
-    })
+    
     return (
         <div className="home">
             <h1 className="animateOpacity">Benchsoft</h1 >

@@ -10,8 +10,10 @@ import Burger from '../burger/Burger';
 import Portfolio from '../portfolio/Portfolio';
 
 export const mainRef = React.createRef()
-const Content = () => {
-
+const Content = (scrollVal) => {
+    if(scrollVal === null){
+        console.log(scrollVal);
+    }
     return (
         <div className="content">
             <div className="mainContent" >
