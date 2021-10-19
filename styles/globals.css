@@ -83,39 +83,51 @@ a {
     position: fixed;
 }
 
-.sideBare .nav a:hover{
+.sideBare .nav a:hover {
     color: white;
 }
 
-.animateFromLeft{
+.animateFromLeft {
     position: relative;
     animation: animateLeft 1s;
 }
-.animateFromRight{
+.animateFromRight {
     position: relative;
     animation: animateRight 1s;
 }
-.animateOpacity{
+.animateOpacity {
     animation: animateOpacity 3s;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
 
-@keyframes animateLeft{
-    from{left: -100%;}
-    to{left: 0;}
+@keyframes animateLeft {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
 }
 
-@keyframes animateRight{
-    from{right: -100%;}
-    to{right: 0;}
+@keyframes animateRight {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
 }
-@keyframes animateOpacity{
-    from{opacity: 0;}
-    to{opacity: 1;}
+@keyframes animateOpacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-.burger .contentOpen a:hover{
+.burger .contentOpen a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -182,7 +194,7 @@ a {
     max-width: 550px;
     padding-left: 10px;
     font-weight: bold;
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 0.8);
     margin-top: 5px;
     line-height: 55px;
 }
@@ -798,7 +810,6 @@ a {
     margin-left: 40px;
 }
 
-
 @media only screen and (max-width: 1120px) {
     .home h1 {
         font-size: 120px;
@@ -927,7 +938,6 @@ a {
 }
 
 @media only screen and (max-width: 1180px) {
-
     .deskTech {
         flex-wrap: wrap;
     }
@@ -959,7 +969,7 @@ a {
     .burger {
         display: none;
     }
-    .technoleges_blocks{
+    .technoleges_blocks {
         display: none;
     }
 }
@@ -968,7 +978,7 @@ a {
     .sideBare {
         display: none;
     }
-    .technoleges_blocks{
+    .technoleges_blocks {
         display: none;
     }
     .technology_text {
@@ -988,7 +998,6 @@ a {
         flex-direction: column;
         align-items: center;
         width: 100%;
-
     }
 
     .home {
@@ -1057,7 +1066,7 @@ a {
         max-width: 500px;
         margin: 0 auto;
     }
-    .technoleges_blocks{
+    .technoleges_blocks {
         display: none;
     }
 
@@ -1082,28 +1091,26 @@ a {
     }
 }
 
-
-
 @media only screen and (max-width: 550px) {
     .home h1 {
         font-size: 60px;
     }
-    .mainContent{
+    .mainContent {
         width: 500px;
     }
-    .main{
+    .main {
         width: 500px;
     }
-    .about{
+    .about {
         width: 500px;
     }
-    .values{
+    .values {
         width: 500px;
     }
-    .container{
+    .container {
         width: 500px;
     }
-    .project{
+    .project {
         width: 500px;
     }
     .home p {
@@ -1151,13 +1158,12 @@ a {
         margin-top: 25px;
         margin-right: 0;
     }
-   
-    
+
     .keen-slider {
         display: block;
         margin-top: 50px;
     }
-    .technoleges_blocks{
+    .technoleges_blocks {
         display: none;
     }
 }
