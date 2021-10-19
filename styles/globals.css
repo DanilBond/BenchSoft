@@ -607,6 +607,7 @@ a {
     height: 1300px;
     margin-top: 120px;
     /* background:url("../images/LOGO.png") center no-repeat; */
+    position: relative;
 }
 
 .service_title {
@@ -616,6 +617,14 @@ a {
     font-size: 64px;
     line-height: 64px;
     margin-bottom: 72px;
+}
+
+.service__bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.05;
 }
 
 .burger {
@@ -873,6 +882,10 @@ a {
     .portfolio {
         width: 775px;
     }
+
+    .service__bg {
+        width: 700px;
+    }
 }
 
 .deskTech {
@@ -1060,6 +1073,10 @@ a {
 
     .footer {
         width: 600px;
+    }
+
+    .service__bg {
+        display: none;
     }
 }
 
