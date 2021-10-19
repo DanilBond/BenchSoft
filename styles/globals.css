@@ -72,7 +72,7 @@ a {
 .sideBare {
     max-width: 240px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-top: none;
     border-bottom: none;
@@ -80,6 +80,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
 
     position: fixed;
 }
@@ -135,7 +136,7 @@ a {
 .logoContainer img {
     width: 98px;
     height: 74px;
-    margin-top: 64px;
+    /* margin-top: 64px; */
     top: auto;
 }
 
@@ -144,7 +145,7 @@ a {
     flex-direction: column;
     align-items: center;
 
-    margin-top: 105px;
+    /* margin-top: 105px; */
 }
 
 .nav a {
@@ -160,9 +161,9 @@ a {
     color: white;
 }
 
-.links {
+/* .links {
     margin-top: 60px;
-}
+} */
 
 .links a {
     padding: 0 12px;
