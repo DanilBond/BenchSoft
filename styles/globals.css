@@ -93,7 +93,7 @@ a {
 }
 .animateFromRight{
     position: relative;
-    animation: animateRight 1s;
+    animation: animateRight 0.5s;
 }
 .animateOpacity{
     animation: animateOpacity 3s;
@@ -163,6 +163,9 @@ a {
 .mainContent {
     max-width: 800px;
     margin: 0 0 0 300px;
+}
+.main{
+    width: auto;
 }
 
 .home {
@@ -330,7 +333,7 @@ a {
 
 .project .wrapper {
     display: flex;
-    width: 750px;
+    max-width: 750px;
 }
 
 .contact h1 {
@@ -589,7 +592,7 @@ a {
 }
 
 .service {
-    width: 100%;
+    width: auto;
     height: 1300px;
     margin-top: 120px;
     /* background:url("../images/LOGO.png") center no-repeat; */
@@ -618,6 +621,7 @@ a {
 .burger .content {
     display: none;
 }
+
 
 .burger .background {
     width: 100%;
@@ -853,10 +857,7 @@ a {
         margin-right: 125px;
     }
 
-    .footer {
-        width: 700px;
-    }
-
+    
     .portfolio {
         width: 775px;
     }
@@ -882,11 +883,15 @@ a {
     display: none;
     margin-top: 50px;
 }
+.burger {
+    display: none;
+}
 
 @media only screen and (max-width: 1080px) {
     .block_right {
         margin-left: 320px;
     }
+
 
     .technoleges_blocks.active {
         display: none;
@@ -942,9 +947,7 @@ a {
         margin: 0 auto;
     }
 
-    .footer {
-        width: 600px;
-    }
+    
 
     .portfolio {
         width: 700px;
@@ -953,19 +956,25 @@ a {
     .mainContent {
         margin: 0 0 0 250px;
     }
-}
-
-@media only screen and (min-width: 950px) {
     .burger {
         display: none;
     }
-    .technoleges_blocks{
-        display: none;
+}
+
+@media only screen and (min-width: 980px) {
+    .project .wrapper {
+        width: 545px;
     }
 }
 
 @media only screen and (max-width: 950px) {
     .sideBare {
+        display: none;
+    }
+    .burger {
+        display: none;
+    }
+    .technoleges_blocks{
         display: none;
     }
     .technoleges_blocks{
@@ -1046,9 +1055,7 @@ a {
         width: 400px;
     }
 
-    .footer {
-        width: 600px;
-    }
+    
 }
 
 @media only screen and (max-width: 790px) {
@@ -1065,9 +1072,7 @@ a {
         margin-top: 200px;
     }
 
-    .footer {
-        width: 100%;
-    }
+   
 
     .footer .leftSide {
         margin-left: 15px;

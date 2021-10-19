@@ -93,7 +93,7 @@ const Technoleges = (props) => {
                 </div>
             </div>
 
-            <div ref={sliderRef} className="keen-slider">
+            {/* <div ref={sliderRef} className="keen-slider">
                 <div className="keen-slider__slide number-slide1">
                 <TechnolegesItem text="Python" img={pytgonImg.src} />
                 </div>
@@ -112,7 +112,7 @@ const Technoleges = (props) => {
                 <div className="keen-slider__slide number-slide6">
                 <TechnolegesItem text="next" img={next.src} />
                 </div>
-            </div>
+            </div> */}
 
         </div>
 
