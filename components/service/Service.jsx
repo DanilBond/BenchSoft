@@ -6,11 +6,20 @@ import photo from "../../images/LOGO (1).png";
 const Service = () => {
     return (
         <div className="service" id="service">
-            <h1 className="service_title"> Our services </h1>
+            <h1 className="service_title" data-aos="flip-up">
+                {" "}
+                Our services{" "}
+            </h1>
 
             <div className="service_blocks">
-                <Service_block_left title="Web platforms" description="E-commerce. E-learning. CRM systems. Admin dashboards. HR Management systems. Blogs"/>
-                <Service_block_right title="Mobile applications" description="Cross platform mobile applications for IOS and Android"/>
+                <Service_block_left
+                    title="Web platforms"
+                    description="E-commerce. E-learning. CRM systems. Admin dashboards. HR Management systems. Blogs"
+                />
+                <Service_block_right
+                    title="Mobile applications"
+                    description="Cross platform mobile applications for IOS and Android"
+                />
 
                 <Service_block_left
                     title="Landing pages"

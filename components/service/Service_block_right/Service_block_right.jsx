@@ -1,12 +1,10 @@
-import React from 'react';
+import React from "react";
 
-const Service_block_right = ({title , description}) => {
+const Service_block_right = ({ title, description }) => {
     return (
-        <div className="block_right">
+        <div className="block_right" data-aos="fade-up-left">
             <h2>{title}</h2>
-            <p>
-                {description}
-            </p>
+            <p>{description}</p>
         </div>
     );
 };
