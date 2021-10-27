@@ -46,6 +46,12 @@ a {
     box-sizing: border-box;
 }
 
+.bigger {
+    color: white !important;
+    transform: scale(1.2);
+    font-size: 22px;
+}
+
 .content {
     height: 100%;
 }
@@ -89,8 +95,11 @@ a {
 
 .sideBare .nav a:hover {
     color: white;
-    transform: scale(1.2); 
+    transform: scale(1.2);
     font-size: 22px;
+}
+
+.sideBare .nav a {
     transition: 1s;
 }
 
@@ -131,10 +140,13 @@ a {
         opacity: 1;
     }
 }
-.burger .contentOpen a:hover {
+/* .burger .contentOpen a:hover {
     color: rgba(255, 255, 255, 1);
-    transform: scale(1.2); 
+    transform: scale(1.2);
     font-size: 22px;
+} */
+
+.burger .contentOpen a {
     transition: 1s;
 }
 
@@ -303,7 +315,7 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top:163px;
+    margin-top: 163px;
     height: 750px;
 }
 
@@ -640,7 +652,6 @@ a {
     pointer-events: none;
 }
 
-
 .iconclose {
     display: none;
 }
@@ -672,19 +683,27 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     pointer-events: all;
+}
+
+.burger .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .burger .contentOpen img {
     width: 98px;
     height: 74px;
-    margin-top: 64px;
+    /* margin-top: 64px; */
     top: auto;
-    margin-bottom: 75px;
+    /* margin-bottom: 75px; */
 }
 
 .burger .contentOpen .links {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     pointer-events: all;
 }
 
@@ -922,18 +941,17 @@ a {
     margin: 0 200px;
 }
 
-
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     background: #232325;
-    color:white;
+    color: white;
     z-index: 1;
 }
 ::-webkit-scrollbar-thumb {
-    border-radius:20px;
-    background-color:white;
+    border-radius: 20px;
+    background-color: white;
     z-index: 1;
 }
-.teach{
+.teach {
     display: flex;
 }
 @media only screen and (max-width: 1080px) {
@@ -956,7 +974,6 @@ a {
         height: 340px;
     }
 
-
     .portfolio {
         width: 725px;
     }
@@ -966,7 +983,7 @@ a {
     .mobileTech {
         display: none;
     }
-    .project{
+    .project {
         margin-top: 155px;
     }
 }
@@ -1001,7 +1018,7 @@ a {
 }
 
 @media only screen and (max-width: 950px) {
-    .Bench{
+    .Bench {
         height: 150%;
     }
     .sideBare {
@@ -1012,12 +1029,12 @@ a {
         display: block;
         display: flex;
     }
-    .t_agile{
+    .t_agile {
         display: flex;
         width: 50%;
         margin-right: 90px;
     }
-    .teach{
+    .teach {
         display: none;
     }
     .technology_text {
@@ -1103,7 +1120,7 @@ a {
     }
 }
 @media only screen and (max-width: 800px) {
-    .home{
+    .home {
         margin-top: 100px;
         margin-bottom: 400px;
     }
@@ -1134,31 +1151,29 @@ a {
     }
 }
 @media only screen and (max-width: 750px) {
-    .home{
+    .home {
         margin-top: 100px;
         margin-bottom: 150px;
     }
 }
 @media only screen and (max-width: 735px) {
-    .Bench{
+    .Bench {
         height: 200%;
     }
 }
 @media only screen and (max-width: 700px) {
-    .home{
+    .home {
         margin-top: 100px;
         margin-bottom: 650px;
     }
 }
 @media only screen and (max-width: 600px) {
-    .home{
+    .home {
         margin-top: 250px;
         margin-bottom: 750px;
     }
 }
 @media only screen and (max-width: 550px) {
-    
-
     .home p {
         font-size: 40px;
         line-height: 40px;
@@ -1209,15 +1224,14 @@ a {
         display: block;
         margin-top: 50px;
     }
-    
 }
 @media only screen and (max-width: 400px) {
-    .Bench{
+    .Bench {
         height: 225%;
     }
 }
 @media only screen and (max-width: 350px) {
-    .Bench{
+    .Bench {
         height: 250%;
     }
 }
