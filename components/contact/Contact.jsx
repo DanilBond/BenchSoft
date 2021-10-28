@@ -8,7 +8,7 @@ import { styled } from "@mui/material/styles";
 import { makeStyles } from "@material-ui/core";
 const CustomInput = styled(TextField)({
   "& label.Mui-focused": {
-    color: "#c83b34",
+    color: "#fff !important",
   },
   "& .MuiInput-underline:after": {
     borderBottomColor: "#c83b34",
