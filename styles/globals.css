@@ -568,8 +568,13 @@ a {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     display: flex;
-    padding-left: 16px;
+    padding-left: 10px;
     margin-bottom: 20px;
+}
+
+.technology_text:hover {
+    border: 1px solid #c83b34;
+    box-shadow: 0px 0px 30px #c83b34;
 }
 
 .tecnology_image {
