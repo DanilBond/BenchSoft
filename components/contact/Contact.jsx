@@ -3,9 +3,35 @@ import img1 from "../../images/Vector4.png";
 import img2 from "../../images/Vector5.png";
 import img3 from "../../images/Vector6.png";
 import img4 from "../../images/sdf.png";
-import TextField from "@mui/material/TextField";
-
+import { FormControl, TextField } from "@mui/material";
+import { styled } from "@mui/material/styles";
+import { makeStyles } from "@material-ui/core";
+const CustomInput = styled(TextField)({
+    "& label.Mui-focused": {
+        color: "#fff !important",
+    },
+    "& .MuiInput-underline:after": {
+        borderBottomColor: "#c83b34",
+    },
+    "& .MuiOutlinedInput-root": {
+        "& fieldset": {
+            borderColor: "rgba(255, 255, 255, 0.2)",
+        },
+        "&:hover fieldset": {
+            borderColor: "rgba(200, 59, 52, 1)",
+        },
+        "&.Mui-focused fieldset": {
+            borderColor: "#c83b34",
+        },
+    },
+});
+const useStyles = makeStyles((theme) => ({
+    notchedOutline: {
+        borderRadius: "8px",
+    },
+}));
 const Contact = () => {
+    const classes = useStyles();
     return (
         <div className="contact" id="contact">
             <h1 data-aos="flip-up">Contact us</h1>
@@ -50,26 +76,82 @@ const Contact = () => {
             </div>
 
             <div className="form  animateOpacity">
-                <form action="post" id="form">
-                    <input
-                        type="text"
-                        placeholder="Your name"
+                <FormControl>
+                    <CustomInput
                         data-aos="fade-left"
+                        className="CustomInput"
+                        label="Your name"
+                        InputProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "white",
+                            },
+                            classes: {
+                                notchedOutline: classes.notchedOutline,
+                            },
+                        }}
+                        InputLabelProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "rgba(255, 255, 255, 0.2)",
+                            },
+                        }}
                     />
-                    <input
-                        type="email"
-                        placeholder="Email"
+                    <CustomInput
                         data-aos="fade-left"
+                        className="CustomInput"
+                        label="Email"
+                        InputProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "white",
+                            },
+                            classes: {
+                                notchedOutline: classes.notchedOutline,
+                            },
+                        }}
+                        InputLabelProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "rgba(255, 255, 255, 0.2)",
+                            },
+                        }}
                     />
-                    <input
-                        type="email"
-                        placeholder="Message"
+                    <CustomInput
                         data-aos="fade-left"
+                        className="CustomInputThird"
+                        rows={8}
+                        multiline
+                        label="Message"
+                        InputProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "white",
+                            },
+                            classes: {
+                                notchedOutline: classes.notchedOutline,
+                            },
+                        }}
+                        InputLabelProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "rgba(255, 255, 255, 0.2)",
+                            },
+                        }}
                     />
-                    <a href="./" data-aos="fade-left">
+                    <a href="./" data-aos="fade-left" className="formBtn">
                         send message
                     </a>
-                </form>
+                </FormControl>
+                {/* <form action="post" id="form">
+          <input type="text" placeholder="Your name" data-aos="fade-left" />
+
+          <input type="email" placeholder="Email" data-aos="fade-left" />
+          <input type="email" placeholder="Message" data-aos="fade-left" />
+          <a href="./" data-aos="fade-left">
+            send message
+          </a>
+        </form> */}
             </div>
         </div>
     );
