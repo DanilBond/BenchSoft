@@ -572,6 +572,11 @@ a {
   margin-bottom: 20px;
 }
 
+.technology_text:hover {
+  border: 1px solid #c83b34;
+  box-shadow: 0px 0px 30px #c83b34;
+}
+
 .tecnology_image {
   width: 40px;
   height: 40px;
