@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "../../images/LOGO.png";
-import telegram from "../../images/Vector.png";
-import whatsApp from "../../images/wh.png";
-import faceBook from "../../images/fb.png";
+import telegram from "../../images/Vector (3).svg";
+import whatsApp from "../../images/Vector (4).svg";
+import faceBook from "../../images/Vector (5).svg";
 
 import Link from "next/link";
 
