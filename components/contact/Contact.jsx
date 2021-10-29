@@ -78,7 +78,7 @@ const Contact = () => {
             <div className="form  animateOpacity">
                 <FormControl>
                     <CustomInput
-                        data-aos="fade-left"
+                        data-aos="fade-up"
                         className="CustomInput"
                         label="Your name"
                         InputProps={{
@@ -98,7 +98,7 @@ const Contact = () => {
                         }}
                     />
                     <CustomInput
-                        data-aos="fade-left"
+                        data-aos="fade-up"
                         className="CustomInput"
                         label="Email"
                         InputProps={{
@@ -118,7 +118,7 @@ const Contact = () => {
                         }}
                     />
                     <CustomInput
-                        data-aos="fade-left"
+                        data-aos="fade-up"
                         className="CustomInputThird"
                         rows={8}
                         multiline
@@ -139,16 +139,16 @@ const Contact = () => {
                             },
                         }}
                     />
-                    <a href="./" data-aos="fade-left" className="formBtn">
+                    <a href="./" data-aos="fade-up" className="formBtn">
                         send message
                     </a>
                 </FormControl>
                 {/* <form action="post" id="form">
-          <input type="text" placeholder="Your name" data-aos="fade-left" />
+          <input type="text" placeholder="Your name" data-aos="fade-up" />
 
-          <input type="email" placeholder="Email" data-aos="fade-left" />
-          <input type="email" placeholder="Message" data-aos="fade-left" />
-          <a href="./" data-aos="fade-left">
+          <input type="email" placeholder="Email" data-aos="fade-up" />
+          <input type="email" placeholder="Message" data-aos="fade-up" />
+          <a href="./" data-aos="fade-up">
             send message
           </a>
         </form> */}

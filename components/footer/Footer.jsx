@@ -7,7 +7,7 @@ import faceBook from "../../images/fb.png";
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="leftSide animateFromLeft" data-aos="fade-left">
+            <div className="leftSide animateFromLeft" data-aos="fade-down">
                 <div>
                     <span className="spanFirst">B</span>
                     <span className="spanSecond">uild</span>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="rightSide animateFromRight" data-aos="fade-up">
+            <div className="rightSide animateFromRight" data-aos="fade-down">
                 <img className="logo" src={logo.src} alt="logo" />
                 <div className="iconWrapper">
                     <img className="icon" src={telegram.src} alt="tgr" />
