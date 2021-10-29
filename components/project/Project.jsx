@@ -44,7 +44,7 @@ const Project = () => {
                     src={img1.src}
                     alt="img"
                     id="project_5"
-                    data-aos="fade-left"
+                    // data-aos="fade-left"
                 />
             </div>
         </div>

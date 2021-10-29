@@ -6,7 +6,11 @@ import photo from "../../images/LOGO (1).png";
 const Service = () => {
     return (
         <div className="service" id="service">
-            <h1 className="service_title" data-aos="flip-up">
+            <h1
+                className="service_title"
+                data-aos="flip-up"
+                style={{ marginRight: "10px" }}
+            >
                 {" "}
                 Our services{" "}
             </h1>
@@ -39,7 +43,7 @@ const Service = () => {
                     description="Test your business idea with minimum valuableTest your business idea with minimum valuable product"
                 />
             </div>
-            <img src={photo.src} className="service__bg" />
+            <img src={photo.src} className="service__bg" width="750" />
         </div>
     );
 };

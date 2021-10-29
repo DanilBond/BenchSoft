@@ -6,7 +6,8 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
     useEffect(() => {
         AOS.init({
-            once: true,
+            mirror: true,
+            // once: true,
         });
     }, []);
     return <Component {...pageProps} />;

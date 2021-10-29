@@ -89,7 +89,7 @@ const About = () => {
                     do amet sint. Velit officia consequat duis enim velit
                     mollit. Exercitation veniam consequat sunt nostrud amet.
                 </p>
-                <div data-aos="fade-left">
+                <div data-aos="fade-up">
                     <img id="about_3" src={abt.src} alt="image" />
                 </div>
             </div>

@@ -683,7 +683,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     pointer-events: all;
 }
 
@@ -697,9 +697,9 @@ a {
 .burger .contentOpen img {
     width: 98px;
     height: 74px;
-    /* margin-top: 64px; */
+    margin-top: 40px;
     top: auto;
-    /* margin-bottom: 75px; */
+    margin-bottom: 60px;
 }
 
 .burger .contentOpen .links {
