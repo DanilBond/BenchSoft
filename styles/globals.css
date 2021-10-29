@@ -62,7 +62,7 @@ a {
     background-color: rgba(35, 35, 37, 1);
     background: url("../images/Rectangle\ 1.png") no-repeat;
 
-    background-size: cover;
+    /* background-size: cover; */
     position: absolute;
 }
 
@@ -1231,10 +1231,10 @@ a {
 }
 @media only screen and (max-width: 600px) {
     .Bench {
-        height: 200%;
+        height: 170%;
     }
     .about {
-        margin-top: 250px;
+        margin-top: 200px;
     }
     .about div p {
         font-size: 23px;
