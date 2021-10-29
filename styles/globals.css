@@ -704,14 +704,14 @@ a {
 }
 
 .burger .contentOpen {
-    background: #252525;
-    width: 250px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: space-around; */
-    pointer-events: all;
+  background: #252525;
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  pointer-events: all;
 }
 
 .burger .content-wrapper {
@@ -722,11 +722,11 @@ a {
 }
 
 .burger .contentOpen img {
-    width: 98px;
-    height: 74px;
-    margin-top: 40px;
-    top: auto;
-    margin-bottom: 60px;
+  width: 98px;
+  height: 74px;
+  margin-top: 40px;
+  top: auto;
+  margin-bottom: 60px;
 }
 
 .burger .contentOpen .links {
@@ -1016,6 +1016,12 @@ a {
 }
 
 @media only screen and (max-width: 1020px) {
+  .Bench {
+    height: 150%;
+  }
+  .about {
+    margin-top: 300px;
+  }
   .block_right {
     margin: 0 auto;
   }
@@ -1225,10 +1231,10 @@ a {
 }
 @media only screen and (max-width: 600px) {
   .Bench {
-    height: 200%;
+    height: 170%;
   }
   .about {
-    margin-top: 250px;
+    margin-top: 200px;
   }
   .about div p {
     font-size: 23px;
