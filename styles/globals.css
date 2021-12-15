@@ -16,7 +16,7 @@ body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background: #232325;
+    background: #ffffff;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -32,9 +32,8 @@ h4,
 h5,
 p,
 a,
-div,
 li {
-    color: white;
+    color: black;
 }
 
 a {
@@ -47,7 +46,7 @@ a {
 }
 
 .bigger {
-    color: white !important;
+    color: #1B24AF !important;
     transform: scale(1.2);
     font-size: 22px;
 }
@@ -59,8 +58,7 @@ a {
 .Bench {
     min-width: 100%;
     height: 100vh;
-    background-color: rgba(35, 35, 37, 1);
-    background: url("../images/Rectangle\ 1.png") no-repeat;
+
     position: absolute;
 }
 
@@ -79,7 +77,7 @@ a {
     max-width: 240px;
     width: 100%;
     height: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(161, 161, 161, 0.3);
     border-top: none;
     border-bottom: none;
 
@@ -92,7 +90,7 @@ a {
 }
 
 .sideBare .nav a:hover {
-    color: white;
+    color: #000000;
     transform: scale(1.2);
     font-size: 22px;
 }
@@ -168,7 +166,7 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #000000;
     padding-bottom: 30px;
 }
 
@@ -207,27 +205,29 @@ a {
 
 .home p {
     font-family: Muller;
-    font-size: 42px;
+    font-size: 32px;
     max-width: 550px;
     padding-left: 10px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.8);
+    color: #000000;
     margin-top: 5px;
     line-height: 55px;
+    margin-bottom: 55px;
 }
 
 .home a {
     font-family: Muller;
     font-size: 28px;
     padding: 20px 70px;
+    color: white;
 
-    background: #c83b34;
+    background: linear-gradient(0deg, #1B24AF, #1B24AF);
     font-weight: bold;
 
     border-radius: 10px;
     margin-left: 10px;
 
-    box-shadow: 0px 0px 50px rgba(200, 59, 52, 1);
+    box-shadow: 0px 0px 50px  #1B24AF;
 }
 
 .about {
