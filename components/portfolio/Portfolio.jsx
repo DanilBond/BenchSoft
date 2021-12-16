@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import image from "../../images/Rectangle 11.png";
-import left from "../../images/ArrowLeft.png";
-import right from "../../images/ArrowRight.png";
+import image1 from "../../images/sliderImg1.png";
+import image2 from "../../images/sliderImg2.png";
+import left from "../../images/ARRL.png";
+import right from "../../images/ARRR.png";
 
 const Portfolio = () => {
   let [currentState, useCurrentState] = useState(0);
@@ -11,16 +12,13 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1 data-aos="flip-up">Portfolio</h1>
+      <h1 data-aos="flip-up">Open positions</h1>
       <div className="scrollContainer" data-aos="zoom-in">
         <div className={"scrollImage pos" + currentState}>
-          <img src={image.src} alt="" />
+          <img src={image2.src} alt="" />
         </div>
         <div className={"scrollImage pos" + currentState}>
-          <img src={image.src} alt="" />
-        </div>
-        <div className={"scrollImage pos" + currentState}>
-          <img src={image.src} alt="" />
+          <img src={image1.src} alt="" />
         </div>
       </div>
 
@@ -32,23 +30,11 @@ const Portfolio = () => {
         <div className="buttonContainer">
           <div
             className="button"
-            onClick={() => {
-              if (currentState - 1 == 0) {
-                useCurrentState(currentState - 1);
-              }
-              update();
-            }}
           >
             <img src={left.src} alt="" />
           </div>
           <div
             className="button"
-            onClick={() => {
-              if (currentState + 1 == 1) {
-                useCurrentState(currentState + 1);
-              }
-              update();
-            }}
           >
             <img src={right.src} alt="" />
           </div>
