@@ -8,20 +8,20 @@ import { styled } from "@mui/material/styles";
 import { makeStyles } from "@material-ui/core";
 const CustomInput = styled(TextField)({
     "& label.Mui-focused": {
-        color: "#fff !important",
+        color: "#1B24AF !important",
     },
     "& .MuiInput-underline:after": {
-        borderBottomColor: "#c83b34",
+        borderBottomColor: "gray",
     },
     "& .MuiOutlinedInput-root": {
         "& fieldset": {
-            borderColor: "rgba(255, 255, 255, 0.2)",
+            borderColor: "rgba(0, 0, 0, .3)",
         },
         "&:hover fieldset": {
-            borderColor: "rgba(200, 59, 52, 1)",
+            borderColor: "#1B24AF",
         },
         "&.Mui-focused fieldset": {
-            borderColor: "#c83b34",
+            borderColor: "#1B24AF",
         },
     },
 });
@@ -75,12 +75,82 @@ const Contact = () => {
             </div>
 
             <div className="form  animateOpacity">
-                <form action="">
-                    <input type="text" placeholder="Your name"/>
-                    <input type="text" placeholder="Phone number"/>
-                    <input type="text" placeholder="Message"/>
-                    <button type="submit">Send message</button>
-                </form>
+                <FormControl>
+                    <CustomInput
+                        data-aos="fade-up"
+                        className="CustomInput"
+                        label="Your name"
+                        InputProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "gray"
+                            },
+                            classes: {
+                                notchedOutline: classes.notchedOutline,
+                            },
+                        }}
+                        InputLabelProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "rgba(0, 0, 0, 1)",
+                            },
+                        }}
+                    />
+                    <CustomInput
+                        data-aos="fade-up"
+                        className="CustomInput"
+                        label="Email"
+                        InputProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "black",
+                            },
+                            classes: {
+                                notchedOutline: classes.notchedOutline,
+                            },
+                        }}
+                        InputLabelProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "rgba(0, 0, 0, 1)",
+                            },
+                        }}
+                    />
+                    <CustomInput
+                        data-aos="fade-up"
+                        className="CustomInputThird"
+                        rows={8}
+                        multiline
+                        label="Message"
+                        InputProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "black",
+                            },
+                            classes: {
+                                notchedOutline: classes.notchedOutline,
+                            },
+                        }}
+                        InputLabelProps={{
+                            style: {
+                                fontFamily: "Muller",
+                                color: "rgba(0, 0, 0, 1)",
+                            },
+                        }}
+                    />
+                    <a href="./" data-aos="fade-up" className="formBtn">
+                        send message
+                    </a>
+                </FormControl>
+                {/* <form action="post" id="form">
+          <input type="text" placeholder="Your name" data-aos="fade-up" />
+
+          <input type="email" placeholder="Email" data-aos="fade-up" />
+          <input type="email" placeholder="Message" data-aos="fade-up" />
+          <a href="./" data-aos="fade-up">
+            send message
+          </a>
+        </form> */}
             </div>
         </div>
     );
