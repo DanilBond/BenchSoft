@@ -474,12 +474,13 @@ a {
     align-self: center;
     text-align: center;
 
-    background: #c83b34;
+    background: #1B24AF;
     font-weight: bold;
-
+    color: white;
     border-radius: 10px;
-    margin-top: 75px;
-    box-shadow: 0px 0px 50px rgba(200, 59, 52, 1);
+    margin-top: 25px;
+    align-self: flex-end;
+    box-shadow: 0px 0px 50px #1B24AF;
 }
 
 .contact .form form :nth-child(1),
