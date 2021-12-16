@@ -1,6 +1,6 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
-import abt from "../../images/Rectangle 4.png";
+import abt from "../../images/aboutttt.png";
 
 const About = () => {
     // let ok = true;
@@ -80,15 +80,16 @@ const About = () => {
             <h1 id="about_1" data-aos="fade-right">
                 About us
             </h1>
-            <div>
-                <p id="about_2" data-aos="fade-right">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
-                </p>
+            <div className="about_block">
+                <div className="about_text">
+                <div className="about_p" id="about_2" data-aos="fade-right">
+                We are a team of creative developers, data analysts, designers who care about your growth in the interesting world of programming. We are ready to support you and provide you with practice if you are not yet confident in your abilities after IT courses or self-study.
+                </div>
+                <div className="about_p" id="about_txt" data-aos="fade-right">
+                We provide real foreign orders, an experienced mentor and a staffed team for the project, and if you quickly achieve a result and pass an interview, we will help you find a job in the companies of our foreign partners
+                </div>
+                </div>
+
                 <div data-aos="fade-up">
                     <img id="about_3" src={abt.src} alt="image" />
                 </div>

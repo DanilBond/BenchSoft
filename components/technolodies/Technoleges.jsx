@@ -33,7 +33,7 @@ const Technoleges = (props) => {
     return (
         <div className="technoleges" id="tech">
             <h1 className="technoleges_title" data-aos="flip-up">
-                Modern technologies for innovative solutions
+            Tech stack
             </h1>
 
             <div className="deskTech">
