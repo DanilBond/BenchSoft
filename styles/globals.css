@@ -610,19 +610,23 @@ a {
 .block_left h2 {
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 158.14%;
     justify-content: flex-end;
-    color: #c83b34;
+    color: #1B24AF;
+    margin: 0;
 }
 
 .block_left p {
     width: 411px;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 158.14%;
     color: #ffffff;
+    margin: 0;
+    color: black;
+    opacity: .6;margin-bottom: 20px;
 }
 
 .block_right {
@@ -637,19 +641,22 @@ a {
 .block_right h2 {
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 158.14%;
     justify-content: flex-end;
-    color: #c83b34;
+    color: #1B24AF;
+    margin: 0;
 }
 
 .block_right p {
     width: 411px;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 158.14%;
-    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    opacity: .6;
+    margin-bottom: 20px;
 }
 
 .service {
@@ -658,6 +665,9 @@ a {
     margin-top: 120px;
     /* background:url("../images/LOGO.png") center no-repeat; */
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
 }
 
 .service_title {
