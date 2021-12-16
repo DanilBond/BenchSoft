@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../../images/Group.png";
-import img2 from "../../images/carbon_report.png";
-import img3 from "../../images/Vector1.png";
+import img1 from "../../images/qwe1.png";
+import img2 from "../../images/qwe2.png";
+import img3 from "../../images/qwe3.png";
 
 const Values = () => {
     return (
@@ -10,23 +10,22 @@ const Values = () => {
 
             <div className="container">
                 <div className="item" id="values_1" data-aos="flip-left">
-                    <img src={img1.src} alt="img1" />
-                    <h2>Product development from scratch</h2>
-                    <p>Initial analysis and risk accounting.</p>
+                    <img  src={img2.src} alt="img1" />
+                    <h2>Growth</h2>
+                    <p>We care about your growth</p>
                 </div>
 
                 <div className="item" id="values_2" data-aos="flip-left">
-                    <img src={img2.src} alt="img1" />
+                    <img src={img3.src} alt="img1" id="value_img3"/>
                     <h2>Full reporting</h2>
-                    <p>Full and clear documentation for your product</p>
+                    <p>Full and clear development</p>
                 </div>
 
                 <div className="item" id="values_3" data-aos="flip-left">
-                    <img src={img3.src} alt="img1" />
-                    <h2>MVP development</h2>
+                    <img src={img1.src} alt="img1" />
+                    <h2>Startups</h2>
                     <p>
-                        Quick launch of project. We use Agile and Scrum for
-                        better and fast development.
+                    You can participate in the development of cool startups
                     </p>
                 </div>
             </div>

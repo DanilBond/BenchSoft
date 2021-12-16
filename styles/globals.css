@@ -235,23 +235,32 @@ a {
     height: 750px;
 }
 
+
 .about h1 {
-    font-size: 64px;
-    margin-top: 200px;
+    width: 205px;
+    font-size: 48px;
+    margin: 200px auto 79px;
 }
 
-.about p {
-    font-size: 23px;
+.about_p {
+    font-size: 16px;
     line-height: 162.64%;
     width: 350px;
 }
 
+#about_txt{
+    padding-top: 20px;
+}
 .about img {
     height: 436px;
     margin-right: 40px;
 }
 
-.about div {
+.about_text{
+    margin-top: 30px;
+}
+
+.about_block{
     display: flex;
     justify-content: space-between;
 }
@@ -264,18 +273,18 @@ a {
 }
 
 .values h1 {
-    font-size: 64px;
+    font-size: 48px;
     display: flex;
     margin-bottom: 75px;
 }
 
 .values .container .item img {
-    width: 73px;
-    height: 70px;
+    max-width: 55px;
+    min-height: 52px;
 }
 
 .values .container .item h2 {
-    font-size: 26px;
+    font-size: 18px;
     width: 350px;
     line-height: 35px;
     margin-bottom: 0;
@@ -283,6 +292,7 @@ a {
     font-family: Gotham400Normal;
     font-weight: bold;
     letter-spacing: 0.9px;
+    margin-top: 19px;
 }
 
 .values .container {
@@ -293,22 +303,32 @@ a {
 }
 
 .values .container .item p {
-    font-size: 16px;
-    letter-spacing: 2.5px;
+    font-size: 14px;
+    line-height: 158.14%;
     margin-top: 10px;
-    font-weight: 100;
+    font-style: normal;
+    font-weight: normal;
     text-align: center;
+    color: #000000;
+    opacity: 0.6;
 }
 
 .values .container .item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 325px;
+    width: 338px;
+    height: 256px;
+    box-shadow: 0px 2px 15px rgba(137, 137, 137, 0.25);
+    border-radius: 17px;
     margin: 0 30px;
     margin-bottom: 50px;
+    padding-top: 52px;
 }
-
+#value_img3{
+    width: 55px;
+    height: 61px;
+}
 .project {
     display: flex;
     align-items: center;
@@ -334,21 +354,23 @@ a {
 }
 
 .project .content .item {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .project .content .item h2 {
     color: #1B24AF;
     font-family: Gotham400Normal;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
 .project .content .item p {
     font-family: Gotham400Normal;
-    width: 300px;
+    width: 411px;
     line-height: 30px;
     letter-spacing: 1px;
     margin-top: 10px;
+    font-size: 18px;
 }
 
 .project .wrapper img {
@@ -565,9 +587,9 @@ a {
 }
 
 .technology_text {
-    width: 160px;
+    width: 172px;
     height: 80px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 2px 15px rgb(137 137 137 / 25%); 
     border-radius: 10px;
     display: flex;
     padding-left: 10px;
@@ -575,8 +597,8 @@ a {
 }
 
 .technology_text:hover {
-    border: 1px solid #c83b34;
-    box-shadow: 0px 0px 30px #c83b34;
+    border: 1px solid #1b24af;
+    box-shadow: 0px 0px 50px #1b24af;
 }
 
 .tecnology_image {
@@ -591,7 +613,7 @@ a {
     font-size: 18px;
     line-height: 18px;
 
-    color: #fff;
+    color: #000000;
     margin-top: 31px;
     margin-left: 12px;
 }
@@ -918,7 +940,8 @@ a {
     }
 
     .about h1 {
-        font-size: 60px;
+        font-size: 48px;
+        width: 265px;
     }
 
     .about div img {

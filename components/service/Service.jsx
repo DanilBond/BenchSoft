@@ -17,17 +17,17 @@ const Service = () => {
 
             <div className="service_blocks">
                 <Service_block_left
-                    title="Web platforms"
-                    description="E-commerce. E-learning. CRM systems. Admin dashboards. HR Management systems. Blogs"
+                    title="Code review"
+                    description="A mentor will tell you how to do magic correctly"
                 />
                 <Service_block_right
-                    title="Mobile applications"
-                    description="Cross platform mobile applications for IOS and Android"
+                    title="Full development proccess"
+                    description="QA, DevOps, Backend and Frontend, Project manager and Tech lead"
                 />
 
                 <Service_block_left
-                    title="Landing pages"
-                    description="Beautiful and stylish landing pages for your business"
+                    title="Monthly interview"
+                    description="Improve your skills on interviews"
                 />
                 <Service_block_right
                     title="UI & UX design"
@@ -35,12 +35,12 @@ const Service = () => {
                 />
 
                 <Service_block_left
-                    title="Staff augmentation"
-                    description="Experieced backend and frontend develops for any kind of project"
+                    title="Participate in startups"
+                    description="Be a part of International startups"
                 />
                 <Service_block_right
-                    title="MVP development"
-                    description="Test your business idea with minimum valuableTest your business idea with minimum valuable product"
+                    title="Grow with professionals"
+                    description="Grow with us"
                 />
             </div>
             <img src={photo.src} className="service__bg" width="750" />
