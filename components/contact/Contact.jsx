@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "../../images/Vector4.png";
-import img2 from "../../images/Vector5.png";
-import img3 from "../../images/Vector6.png";
-import img4 from "../../images/sdf.png";
+import img1 from "../../images/Locaa.png";
+import img2 from "../../images/Phnee.png";
+import img3 from "../../images/Malee.png";
+import img4 from "../../images/Clcc.png";
 import { FormControl, TextField } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { makeStyles } from "@material-ui/core";

@@ -386,6 +386,8 @@ a {
 
 .contact .item img {
     margin-right: 30px;
+    width: 45px;
+    height: 45px;
 }
 
 .contact .item .localWrapper h2 {
