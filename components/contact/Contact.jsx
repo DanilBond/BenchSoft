@@ -42,15 +42,14 @@ const Contact = () => {
                         <img src={img1.src} alt="img1" width="35" height="45" />
                         <div className="localWrapper">
                             <h2>Address</h2>
-                            <p>4 th icrodistrict 2/1</p>
-                            <p>Bishkek, Kyrgyzstan</p>
+                            <p>Logvinenko st. 55, 1st office</p>
                         </div>
                     </div>
                     <div className="item" data-aos="fade-right">
                         <img src={img3.src} alt="img1" width="45" height="35" />
                         <div className="localWrapper">
                             <h2>Email us</h2>
-                            <p>benchsoft@gmail.com</p>
+                            <p>hello@zettasoft.io</p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +59,7 @@ const Contact = () => {
                         <div className="localWrapper">
                             <h2>Call us</h2>
                             <p>+996 774 15 65 33</p>
-                            <p>+996 222 15 65 33</p>
+                            <p>+996 559 60 16 09</p>
                         </div>
                     </div>
 
@@ -69,89 +68,19 @@ const Contact = () => {
                         <div className="localWrapper">
                             <h2>Open hours</h2>
                             <p>Monday-Friday</p>
-                            <p>9:00AM - 05:00PM</p>
+                            <p>10:00 - 18:00</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div className="form  animateOpacity">
-                <FormControl>
-                    <CustomInput
-                        data-aos="fade-up"
-                        className="CustomInput"
-                        label="Your name"
-                        InputProps={{
-                            style: {
-                                fontFamily: "Muller",
-                                color: "white",
-                            },
-                            classes: {
-                                notchedOutline: classes.notchedOutline,
-                            },
-                        }}
-                        InputLabelProps={{
-                            style: {
-                                fontFamily: "Muller",
-                                color: "rgba(255, 255, 255, 0.2)",
-                            },
-                        }}
-                    />
-                    <CustomInput
-                        data-aos="fade-up"
-                        className="CustomInput"
-                        label="Email"
-                        InputProps={{
-                            style: {
-                                fontFamily: "Muller",
-                                color: "white",
-                            },
-                            classes: {
-                                notchedOutline: classes.notchedOutline,
-                            },
-                        }}
-                        InputLabelProps={{
-                            style: {
-                                fontFamily: "Muller",
-                                color: "rgba(255, 255, 255, 0.2)",
-                            },
-                        }}
-                    />
-                    <CustomInput
-                        data-aos="fade-up"
-                        className="CustomInputThird"
-                        rows={8}
-                        multiline
-                        label="Message"
-                        InputProps={{
-                            style: {
-                                fontFamily: "Muller",
-                                color: "white",
-                            },
-                            classes: {
-                                notchedOutline: classes.notchedOutline,
-                            },
-                        }}
-                        InputLabelProps={{
-                            style: {
-                                fontFamily: "Muller",
-                                color: "rgba(255, 255, 255, 0.2)",
-                            },
-                        }}
-                    />
-                    <a href="./" data-aos="fade-up" className="formBtn">
-                        send message
-                    </a>
-                </FormControl>
-                {/* <form action="post" id="form">
-          <input type="text" placeholder="Your name" data-aos="fade-up" />
-
-          <input type="email" placeholder="Email" data-aos="fade-up" />
-          <input type="email" placeholder="Message" data-aos="fade-up" />
-          <a href="./" data-aos="fade-up">
-            send message
-          </a>
-        </form> */}
+                <form action="">
+                    <input type="text" placeholder="Your name"/>
+                    <input type="text" placeholder="Phone number"/>
+                    <input type="text" placeholder="Message"/>
+                    <button type="submit">Send message</button>
+                </form>
             </div>
         </div>
     );
