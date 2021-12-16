@@ -5,7 +5,7 @@ const Project = () => {
     return (
         <div className="project" id="project">
             <h1 className="animateOpacity" data-aos="flip-up">
-                Quick project start
+                Roadmap
             </h1>
             <div className="wrapper">
                 <div className="content">

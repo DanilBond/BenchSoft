@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "../../images/LOGO.png";
-import telegram from "../../images/Vector (3).svg";
-import whatsApp from "../../images/Vector (4).svg";
-import faceBook from "../../images/Vector (5).svg";
+import telegram from "../../images/TGR.png";
+import whatsApp from "../../images/WAA.png";
+import faceBook from "../../images/INN.png";
 
 import Link from "next/link";
 
@@ -22,13 +22,13 @@ const SideBare = () => {
                         Values
                     </a>
                     <a className="sideBare_link" href="#project">
-                        Project start
+                        Roadmap
                     </a>
                     <a className="sideBare_link" href="#service">
                         Services
                     </a>
                     <a className="sideBare_link" href="#portfolio">
-                        Portfolio
+                        Positions
                     </a>
                     <a className="sideBare_link" href="#contact">
                         Contact

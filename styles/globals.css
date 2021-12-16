@@ -97,6 +97,7 @@ a {
 
 .sideBare .nav a {
     transition: 1s;
+    padding-bottom: 34px;
 }
 
 .animateFromLeft {
@@ -147,9 +148,8 @@ a {
 }
 
 .logoContainer img {
-    width: 98px;
-    height: 74px;
-    /* margin-top: 64px; */
+    width: 82px;
+    height: 90px;
     top: auto;
 }
 
@@ -165,7 +165,7 @@ a {
     font-family: Muller;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     color: #000000;
     padding-bottom: 30px;
 }
@@ -183,8 +183,8 @@ a {
 }
 
 .links a img {
-    width: 20px;
-    height: 19px;
+    width: 24px;
+    height: 24px;
 }
 
 .mainContent {
@@ -315,6 +315,8 @@ a {
     flex-direction: column;
     margin-top: 163px;
     height: 750px;
+    align-items: flex-start;
+    margin-left: 50px;
 }
 
 .project h1 {
@@ -1060,6 +1062,9 @@ a {
 @media only screen and (max-width: 950px) {
     .Bench {
         height: 150%;
+    }
+    .project{
+        align-items: center;
     }
     .project .content .item p {
         font-size: 21px;

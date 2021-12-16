@@ -15,7 +15,7 @@ const Content = (scrollVal) => {
         console.log(scrollVal);
     }
     return (
-        <div className="content">
+        <div className="content" id='home'>
             <div className="mainContent" >
                 <Home/>
                 <Main ref={mainRef}/>
