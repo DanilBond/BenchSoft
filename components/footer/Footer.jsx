@@ -1,42 +1,41 @@
 import React from "react";
-import logo from "../../images/LOGO.png";
-import telegram from "../../images/Vector (3).svg";
-import whatsApp from "../../images/Vector (4).svg";
-import faceBook from "../../images/Vector (5).svg";
+import logo from "../../images/Subtract.png";
+import telegram from "../../images/TGR.png";
+import whatsApp from "../../images/WAA.png";
+import faceBook from "../../images/INN.png";
 
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="leftSide animateFromLeft" data-aos="fade-down">
-                <div>
-                    <span className="spanFirst">B</span>
-                    <span className="spanSecond">uild</span>
-                </div>
-                <div>
-                    <span className="spanFirst">E</span>
-                    <span className="spanSecond">xpand</span>
-                </div>
-                <div>
-                    <span className="spanFirst">N</span>
-                    <span className="spanSecond">etwork</span>
-                </div>
-                <div>
-                    <span className="spanFirst">C</span>
-                    <span className="spanSecond">ontrol</span>
-                </div>
-                <div>
-                    <span className="spanFirst">H</span>
-                    <span className="spanSecond">ire</span>
-                </div>
+            <div className="footerImg">
+                <img src={logo.src} alt="" />
             </div>
+            <div className="footerTitle">ZettaLab.io</div>
 
-            <div className="rightSide animateFromRight" data-aos="fade-down">
-                <img className="logo" src={logo.src} alt="logo" />
-                <div className="iconWrapper">
-                    <img className="icon" src={telegram.src} alt="tgr" />
-                    <img className="icon" src={whatsApp.src} alt="tgr" />
-                    <img className="icon" src={faceBook.src} alt="tgr" />
-                </div>
+            <div className="footerIcons">
+                <a href="">
+                    <img
+                        className="sideBare_contacts"
+                        src={telegram.src}
+                        alt="telegram"
+                    />
+                </a>
+
+                <a href="">
+                    <img
+                        className="sideBare_contacts"
+                        src={whatsApp.src}
+                        alt="whatsApp"
+                    />
+                </a>
+
+                <a href="">
+                    <img
+                        className="sideBare_contacts"
+                        src={faceBook.src}
+                        alt="FaceBook"
+                    />
+                </a>
             </div>
         </div>
     );

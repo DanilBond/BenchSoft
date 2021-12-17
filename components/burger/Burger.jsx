@@ -34,7 +34,7 @@ const Burger = () => {
                     window.document.querySelector("#portfolio");
                 let contactBlock = window.document.querySelector("#contact");
 
-                let home =
+                let homeBur =
                     window.document.querySelectorAll(".burger-nav-link")[0];
                 let aboutBur =
                     window.document.querySelectorAll(".burger-nav-link")[1];
@@ -49,21 +49,27 @@ const Burger = () => {
                 let contactBur =
                     window.document.querySelectorAll(".burger-nav-link")[6];
 
-                let about =
+                let home =
                     window.document.querySelectorAll(".sideBare_link")[0];
-                let values =
+                let about =
                     window.document.querySelectorAll(".sideBare_link")[1];
-                let project =
+                let values =
                     window.document.querySelectorAll(".sideBare_link")[2];
-                let service =
+                let project =
                     window.document.querySelectorAll(".sideBare_link")[3];
-                let portfolio =
+                let service =
                     window.document.querySelectorAll(".sideBare_link")[4];
-                let contact =
+                let portfolio =
                     window.document.querySelectorAll(".sideBare_link")[5];
+                let contact =
+                    window.document.querySelectorAll(".sideBare_link")[6];
 
-                if (y < aboutBlock.offsetTop - 50) {
-                    setBigger(home);
+                    if(y < 200){
+                        setBigger(home);
+                    }
+                    else 
+                if (y < aboutBlock.offsetTop) {
+                    setBigger(homeBur);
                     removeBigger(contact);
                 } else if (y >= contactBlock.offsetTop - 50) {
                     setBigger(contact);

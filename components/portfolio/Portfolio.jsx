@@ -9,6 +9,8 @@ const Portfolio = () => {
   function update() {
     console.log(currentState);
   }
+  
+  
 
   return (
     <div className="portfolio" id="portfolio">
@@ -24,7 +26,7 @@ const Portfolio = () => {
 
       <div className="scrollBar" data-aos="zoom-in">
         <div className="bar">
-          <div className={"handle poshandle" + currentState}></div>
+          <div className={"handle"}></div>
         </div>
 
         <div className="buttonContainer">
