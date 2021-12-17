@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../images/LOGO.png";
+import logo from "../../images/Subtract.png";
 
 import telegram from "../../images/Vector (3).svg";
 import whatsApp from "../../images/Vector (4).svg";
