@@ -26,7 +26,7 @@ const Content = (scrollVal) => {
                 <Contact />
             </div>
             
-            <Footer />
+                <Footer />
         </div>
     );
 };

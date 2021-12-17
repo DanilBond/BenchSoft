@@ -5,21 +5,17 @@ import left from "../../images/ARRL.png";
 import right from "../../images/ARRR.png";
 
 const Portfolio = () => {
-  let [currentState, useCurrentState] = useState(0);
-  function update() {
-    console.log(currentState);
-  }
   
   
 
   return (
     <div className="portfolio" id="portfolio">
       <h1 data-aos="flip-up">Open positions</h1>
-      <div className="scrollContainer" data-aos="zoom-in">
-        <div className={"scrollImage pos" + currentState}>
+      <div className="scrollContainer" data-aos="zoom-in" >
+        <div className={"scrollImage pos"}>
           <img src={image2.src} alt="" />
         </div>
-        <div className={"scrollImage pos" + currentState}>
+        <div className={"scrollImage pos"}>
           <img src={image1.src} alt="" />
         </div>
       </div>
