@@ -33,6 +33,7 @@ const Burger = () => {
                 let portfolioBlock =
                     window.document.querySelector("#portfolio");
                 let contactBlock = window.document.querySelector("#contact");
+                let homeBlock = window.document.querySelector("#home");
 
                 let homeBur =
                     window.document.querySelectorAll(".burger-nav-link")[0];
@@ -63,30 +64,30 @@ const Burger = () => {
                     window.document.querySelectorAll(".sideBare_link")[5];
                 let contact =
                     window.document.querySelectorAll(".sideBare_link")[6];
-
-                    if(y < 200){
+                
+                    console.log(aboutBlock.offsetTop)
+                if(y < 200){
                         setBigger(home);
                     }
-                    else 
-                if (y < aboutBlock.offsetTop) {
+                else if (y < aboutBlock.offsetTop - 500) {
                     setBigger(homeBur);
                     removeBigger(contact);
-                } else if (y >= contactBlock.offsetTop - 50) {
+                } else if (y >= contactBlock.offsetTop - 300) {
                     setBigger(contact);
                     setBigger(contactBur);
-                } else if (y >= portfolioBlock.offsetTop - 50) {
+                } else if (y >= portfolioBlock.offsetTop - 300) {
                     setBigger(portfolio);
                     setBigger(portfolioBur);
-                } else if (y >= serviceBlock.offsetTop - 50) {
+                } else if (y >= serviceBlock.offsetTop - 300) {
                     setBigger(service);
                     setBigger(serviceBur);
-                } else if (y >= projectBlock.offsetTop - 50) {
+                } else if (y >= projectBlock.offsetTop - 300) {
                     setBigger(project);
                     setBigger(projectBur);
-                } else if (y >= valuesBlock.offsetTop - 50) {
+                } else if (y >= valuesBlock.offsetTop - 300) {
                     setBigger(values);
                     setBigger(valuesBur);
-                } else if (y >= aboutBlock.offsetTop - 50) {
+                } else if (y >= aboutBlock.offsetTop - 300) {
                     setBigger(about);
                     setBigger(aboutBur);
                 } else {
