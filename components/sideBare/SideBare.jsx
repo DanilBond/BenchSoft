@@ -13,6 +13,7 @@ const SideBare = () => {
         if (window != undefined) {
             window.addEventListener("scroll", (e) => {
                 let y = window.scrollY;
+                // console.log(y)
                 if(y > 6750){
                     let sideBar = document.querySelector("#sideBar");
                     if(!sideBar.classList.contains("footerBlock")){
