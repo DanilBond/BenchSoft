@@ -78,6 +78,7 @@ a {
     width: 100%;
     height: 100%;
     border: 1px solid rgba(161, 161, 161, 0.3);
+    transition: border 1s;
     border-top: none;
     border-bottom: none;
 
@@ -152,6 +153,9 @@ a {
     height: 90px;
     top: auto;
 }
+.serviceBlockData img{
+    position: absolute;
+}
 
 .nav {
     display: flex;
@@ -197,9 +201,13 @@ a {
     height: 75vh;
 }
 
+.sideBarBorderNone{
+    border: none;
+}
+
 .home h1 {
     font-size: 142px;
-    margin-top: 338px;
+    margin-top: 200px;
     margin-bottom: 0px;
 }
 
@@ -636,7 +644,7 @@ a {
 }
 
 .block_left p {
-    width: 411px;
+    width: 375px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -668,7 +676,7 @@ a {
 }
 
 .block_right p {
-    width: 411px;
+    width: 345px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1054,6 +1062,12 @@ a {
 @media only screen and (max-width: 1020px) {
     .Bench {
         height: 150%;
+    }
+    .serviceBlockData img{
+        display: none;
+    }
+    .serviceBlockData p{
+        margin-bottom: 50px;
     }
     .about {
         margin-top: 300px;
