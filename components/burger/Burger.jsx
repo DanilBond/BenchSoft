@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../images/Subtract.png";
-
-import telegram from "../../images/Vector (3).svg";
-import whatsApp from "../../images/Vector (4).svg";
-import faceBook from "../../images/Vector (5).svg";
+import telegram from "../../images/TGR.png";
+import whatsApp from "../../images/WAA.png";
+import faceBook from "../../images/INN.png";
 
 const Burger = () => {
     const [isActive, setActive] = useState(false);
@@ -102,8 +101,7 @@ const Burger = () => {
         <div className="burger">
             <div
                 className={isActive ? "iconclose" : "icon"}
-                onClick={toggleClass}
-            >
+                onClick={toggleClass}>
                 <div></div>
                 <div></div>
                 <div></div>
