@@ -110,12 +110,11 @@ const Portfolio = () => {
         <SwiperSlide> <img className='img_port'src={image2.src} alt="ok" /> </SwiperSlide> 
         <SwiperSlide> <img className='img_port'src={image1.src} alt="ok" /> </SwiperSlide> 
         <SwiperSlide><img className='img_port'src={image2.src} alt="ok" /> </SwiperSlide> 
-        <SwiperSlide> <img className='img_port'src={image1.src} alt="ok" /> </SwiperSlide> 
-        <SwiperSlide><img className='img_port'src={image2.src} alt="ok" /> </SwiperSlide> 
+        
          
         <div slot="container-end"> 
-            <div className="swiper-scrollbar">
-              <div className="swiper-scrollbar-drag"></div>
+            <div className="swiper-scrollbar-drag'">
+              
             </div>
             <div className="port_flex">
             <div ref={navigationPrevRef}> 
