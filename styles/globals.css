@@ -63,7 +63,7 @@ a {
 }
 
 .Bench_conent {
-    max-width: 1100px;
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     height: 600px;
@@ -845,7 +845,7 @@ a {
 .portfolio h1 {
     text-align: center;
     font-size: 60px;
-    margin-bottom: 75px;
+    margin-bottom: 20px;
 }
 .scrollContainer{
     width: 598px;
@@ -887,50 +887,36 @@ a {
     height: 2.25px;
     background: #1B24AF;
 }
-
-.poshandle0 {
-    transform: translateX(0);
-    transition: transform;
-    transition-duration: 0.5s;
+.swiper{
+    width: 598px !important;
+    margin: 0 !important;
 }
 
-.poshandle1 {
-    transform: translateX(150px);
-    transition: transform;
-    transition-duration: 0.5s;
-}
-
-.portfolio .buttonContainer {
-    display: flex;
-}
-
-.portfolio .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    margin: 0 5px;
-    
-}
-
-.portfolio .button img {
+.portfolio_but {
     width: 24px;
     height: 24px;
 }
-
-.pos0 {
-    transform: translateX(0);
-    transition: transform;
-    transition-duration: 0.5s;
+.portfolio_img{
+    width: 24px;
+    height: 24px;
 }
-
-.pos1 {
-    transform: translateX(-225px);
-    transition: transform;
-    transition-duration: 0.5s;
+.port_flex{
+    display: flex;
 }
-
+.port_flex{
+    margin-top: 75px;
+}
+.swiper-scrollbar{
+    height: 10px;
+    background-color: gray;
+}
+.swiper-scrollbar-drag{
+    width: 50px !important;
+    background-color: blue !important;
+}
+#r1{
+    margin-right: 22px;
+}
 .flex_t {
     display: flex;
     margin-left: 40px;
