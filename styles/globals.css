@@ -193,7 +193,7 @@ a {
 
 .mainContent {
     max-width: 800px;
-    margin: 0 0 0 300px;
+    margin: 0 0 0 370px;
 }
 
 .home {
@@ -1059,11 +1059,13 @@ a {
     background: #232325;
     color: white;
     z-index: 1;
+    border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background-color: white;
     z-index: 1;
+    border: 0.1px solid black;
 }
 .teach {
     display: flex;

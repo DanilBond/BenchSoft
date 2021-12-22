@@ -98,24 +98,21 @@ const Portfolio = () => {
             swiper.params.navigation.prevEl = navigationPrevRef.current; 
             swiper.params.navigation.nextEl = navigationNextRef.current; 
         }} 
-       scrollbar={{
-          el: '.swiper-scrollbar',
-          draggable: true,
-          dragClass:'.swiper-scrollbar-drag'
-        }}
-       
+        
         className='swiper_port'
       > 
         <SwiperSlide> <img className='img_port' src={image1.src} alt="ok" /> </SwiperSlide> 
         <SwiperSlide> <img className='img_port'src={image2.src} alt="ok" /> </SwiperSlide> 
         <SwiperSlide> <img className='img_port'src={image1.src} alt="ok" /> </SwiperSlide> 
         <SwiperSlide><img className='img_port'src={image2.src} alt="ok" /> </SwiperSlide> 
+        <SwiperSlide> <img className='img_port'src={image1.src} alt="ok" /> </SwiperSlide> 
+        <SwiperSlide><img className='img_port'src={image2.src} alt="ok" /> </SwiperSlide> 
+         <SwiperSlide> <img className='img_port'src={image1.src} alt="ok" /> </SwiperSlide> 
+        <SwiperSlide><img className='img_port'src={image2.src} alt="ok" /> </SwiperSlide> 
         
          
         <div slot="container-end"> 
-            <div className="swiper-scrollbar-drag'">
-              
-            </div>
+          
             <div className="port_flex">
             <div ref={navigationPrevRef}> 
                 <img className='portfolio_img' id='r1'  src={right.src} alt="" />
